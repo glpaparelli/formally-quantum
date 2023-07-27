@@ -1,0 +1,1 @@
+A set is countably infinite **if its elements can be put in one-to-one correspondence with the set of natural numbers**. In other words, one can count off all elements in the set in such a way that, even though the counting will take forever

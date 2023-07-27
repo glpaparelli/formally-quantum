@@ -1,0 +1,1 @@
+A sequence $\{a_n\}$ of complex numbers is called a **summable sequence** if $$N = sup\{\Sigma_{n\in E}\ |a_n| :\ S\ \text{is a finite test}\} < \infty$$**said easy:** the sum of the absolute values of the elements of the sequence is finite.

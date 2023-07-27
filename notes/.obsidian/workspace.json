@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "ae7ad45b6c8099a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1c77d4eacc68c8b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c573ed696fc05725",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dbef039a6dfa48f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "87bc02b40e205cc0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47276de970d5c54f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ac34ee9406188621",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a00e9628a1db8623",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 318.505859375
+  },
+  "right": {
+    "id": "3fcae47ea874ee1b",
+    "type": "split",
+    "children": [
+      {
+        "id": "d1b4f411b11e7199",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a35de6489e9f4f5b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "200599e6fca7f1f2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4e68acf81a048d3e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a1b841bc5e94f570",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "webpage-html-export:Export Vault to HTML": false
+    }
+  },
+  "active": "47276de970d5c54f",
+  "lastOpenFiles": [
+    "papers-explained/Towards a Quantum Programming Language.md",
+    "TODO.md",
+    "concepts/generic-math/Metric Space.md",
+    "concepts/quantum-computing/Qubit.md",
+    "concepts/quantum-mechanics/4th Postulate - Composition of Systems.md",
+    "concepts/quantum-computing/Bloch Sphere.md",
+    "concepts/linear-algebra/Tensor Product.md",
+    "concepts/linear-algebra/Positive Operator.md",
+    "imgs/tensor-product-matrices.png",
+    "concepts/linear-algebra/Hermitian Operator.md",
+    "Index.md",
+    "concepts/linear-algebra/Cylinder Extension.md",
+    "concepts/linear-algebra/Density Operator.md",
+    "concepts/linear-algebra/Horizontal-Vertical Concatenation.md",
+    "concepts/linear-algebra/Pure Matrix.md",
+    "concepts/linear-algebra/Vector Space.md",
+    "concepts/linear-algebra/Dirac Notation.md",
+    "concepts/linear-algebra/Similar Matrices.md",
+    "concepts/linear-algebra/Unitary Operator.md",
+    "imgs/horizontal-vertical-concat.png",
+    "concepts/linear-algebra/Isometry.md",
+    "concepts/linear-algebra/Linear Transformation.md",
+    "concepts/linear-algebra/Linear Operator.md",
+    "concepts/quantum-mechanics/2nd Postulate - Evolution.md",
+    "concepts/linear-algebra/Adjoint.md",
+    "concepts/linear-algebra/Inner Product.md",
+    "papers-explained/Floyd-Hoare Logic for Quantum Programs.md",
+    "concepts/quantum-mechanics/Quantum Mechanics Phenomenas.md",
+    "concepts/generic-math",
+    "concepts/quantum-computing",
+    "concepts/quantum-mechanics",
+    "concepts/linear-algebra",
+    "imgs/transition-rules.png",
+    "concepts",
+    "papers-explained/floyd-hoare-logic-for-quantum-programs",
+    "preliminaries",
+    "papers-explained",
+    "Quantum Computing 101.pdf",
+    "Quantum Computing 101.html",
+    "imgs/composite-system-5.png",
+    "imgs/composite-system-4.png",
+    "imgs/composite-system-3.png",
+    "imgs/composite-system-2.png",
+    "imgs/composite-system-1.png",
+    "imgs/complex-2.png",
+    "imgs/bloch-sphere-6.png"
+  ]
+}
