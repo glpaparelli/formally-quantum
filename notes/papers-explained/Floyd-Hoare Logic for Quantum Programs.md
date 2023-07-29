@@ -2,7 +2,10 @@ Summary, comment and explanation of [this]([Floyd--hoare logic for quantum progr
 We use the [[Dirac Notation]] to represent vectors.
 
 ## Introduction
-TODO
+TODO like [[Towards a Quantum Programming Language]]
+
+## Preliminaries
+TODO like [[Towards a Quantum Programming Language]]
 
 ## Syntax of Quantum Programs
 We assume a [[Countably Infinite]] set $Var$ of **quantum variables**. 

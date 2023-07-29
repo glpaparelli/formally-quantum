@@ -49,7 +49,7 @@ Performing operations on $n$ qubits is as operating on $2^n$ bits of information
 The idea is to find an algorithm that makes all $2^n$ states of the qubits converge in one that is the solution of a problem under consideration.
 This by exploiting constructive or destructive interference: positive and negative amplitudes may cancel or reinforce. 
 
-## Towards a QPL
+### QPL: Quantum Bits
 This part is from [[Towards a Quantum Programming Language]].
 An interesting fact about quantum bits is that the states of two or more qubits is not just a tuple of its components. 
 The four possible states of a pair of classical bits are $00, 01, 10, 11$. 

@@ -5,15 +5,19 @@ The **tensor product** of $V$ by $W$, denoted by $V\bigotimes W$, is an $m\times
 
 The tensor product of a vector $|v\rangle \in V$ and a vector $|w\rangle \in W$ such as $|v\rangle \bigotimes |w\rangle$, also denoted with $|v\rangle|w\rangle$ or $|v,w\rangle$ or $|vw\rangle$, can be calculated explicitly via the [[Kronecker Product]]. 
 
-A generic vector in $V \bigotimes W$ is a linear combination of vectors $|v_i\rangle \bigotimes |w_j\rangle$, that is, if $|\psi\rangle \in V \bigotimes W$ then $$|\psi\rangle = \Sigma_{i=1}^m \Sigma_{j=1}^n\ a_{ij}|v_i\rangle\bigotimes|w_j\rangle$$
+A generic vector in $V \bigotimes W$ is a linear combination of vectors $|v_i\rangle \bigotimes |w_j\rangle$, that is, if $|\psi\rangle \in V \bigotimes W$ then $$|\psi\rangle = \Sigma_{i=1}^m \Sigma_{j=1}^n\ a_{ij}|v_i\rangle\bigotimes|w_j\rangle$$The coefficients $a_{ij}$ are the scalars that multiply each basis vector $|v_i\rangle\bigotimes|w_j\rangle$ in the linear combination that represents the generic vector $|\psi\rangle$ in the tensor product space $V\bigotimes W$. 
+In other words, $a_{ij}$ are the coefficients of the expansion of $|\psi\rangle$ in the basis formed by the tensor product of the basis vectors of $V$ and $W$.
+
 The tensor product is **bilinear:** linear in each argument: 
 - $|v\rangle \bigotimes \ (a|w_1\rangle+b|w_2\rangle) = a|v\rangle \bigotimes |w_1\rangle + b|v\rangle \bigotimes|w_2\rangle$ 
 - $(a|v_1\rangle + b|v_2\rangle)\bigotimes |w\rangle = a|v_1\rangle\bigotimes |w\rangle + b|v_2\rangle\bigotimes |w\rangle$ 
 
 A scalar can always be factored out to the beginning of the expression: $$a(|v\rangle \bigotimes |w\rangle)=(a|v\rangle)\bigotimes|w\rangle=|v\rangle\bigotimes \ (a|w\rangle)$$
-The tensor product of a [[Linear Operator]] $\mathcal{A}$ in $V$ by $\mathcal{B}$ in $W$, denoted by $\mathcal{A}\bigotimes\mathcal{B}$, is a linear operator in $V\bigotimes W$ defined by $$(\mathcal{A}\bigotimes \mathcal{B})(|v\rangle \bigotimes |w\rangle)=(\mathcal{A}|v\rangle)\ \bigotimes\ (\mathcal{B}|w\rangle)$$
+The tensor product of a [[Linear Operator]] $\mathcal{A}$ in $V$ by a linear operator $\mathcal{B}$ in $W$, denoted by $\mathcal{A}\bigotimes\mathcal{B}$, is a linear operator in $V\bigotimes W$ defined by $$(\mathcal{A}\bigotimes \mathcal{B})(|v\rangle \bigotimes |w\rangle)=(\mathcal{A}|v\rangle)\ \bigotimes\ (\mathcal{B}|w\rangle)$$
 A generic linear operator in $V\bigotimes W$ can be written as a linear combination of operators of the form $\mathcal{A}\bigotimes \mathcal{B}$, but an operator in $V\bigotimes W$ cannot be factored out in general. 
-This definition can be extended to operators $\mathcal{A}:V\rightarrow V'$ and $\mathcal{B}:W\rightarrow W'$. In this case the tensor product of these operators is of type $(\mathcal{A}\bigotimes\mathcal{B}):(V\bigotimes W)\rightarrow(V'\bigotimes W')$. 
+
+This definition can be extended to operators $\mathcal{A}:V\rightarrow V'$ and $\mathcal{B}:W\rightarrow W'$. 
+In this case the tensor product of these operators is of type $(\mathcal{A}\bigotimes\mathcal{B}):(V\bigotimes W)\rightarrow(V'\bigotimes W')$. 
 
 In quantum mechanics it is very common to use operators in the form of **external product** (aka [[Outer Product]]), for example, using the [[Matrix Representation]], $A = |v\rangle\langle v|$ and $B=|w\rangle\langle w|$. 
 The tensor product of $A$ by $B$ can be represented by the following equivalent ways: 

@@ -120,8 +120,8 @@ $$
 I = \begin{bmatrix} 1 & 0 \\ 0 & 1\end{bmatrix} = |0\rangle\langle0| + |1\rangle\langle1|
 $$
 
-## Summary
-This part is from the preliminary section of [[floyd-hoare-logic-for-quantum-programs]]. 
+## Measurement
+This part is from [[Floyd-Hoare Logic for Quantum Programs]]. 
 A quantum measurement on a system with state space $\mathcal{H}$ is described by a collection of $\{M_m\}$ [[Linear Operator]]s on $\mathcal{H}$ satisfying the following normalization condition, called **completement relation**: 
 $$\Sigma_mM^\dagger_mM_m = I_\mathcal{H}$$
 where $M_m$ are called **measurement operators**, and the index $m$ stands for the measurement outcomes that may occur in the experiment. 

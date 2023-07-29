@@ -1,4 +1,4 @@
-**Vector Spaces:** A set of elements (vectors) that may be added together and multiplied ("scaled") by numbers called **scalars**.
+A **Vector Space** is a set of elements (vectors) that may be added together and multiplied ("scaled") by numbers called **scalars**.
 Vector spaces generalize **Euclidean vectors**, geometric objects with a given **magnitude** (or length) and a **direction**. 
 
 **A vector space over a field $F$ is a non-empty set $V$ together with two binary operations that satisfy the eight axioms listed below.** 

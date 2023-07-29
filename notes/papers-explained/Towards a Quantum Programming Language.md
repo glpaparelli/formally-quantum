@@ -27,9 +27,22 @@ While the semantics of our quantum programming language can (and will) be descri
 We use the **QRAM** machine, which is a general-purpose classical computer which controls a special quantum hardware device.
 The quantum device provides a potentially large number of individually addressable [[Qubit]]s. 
 This qubits can be manipulated via two fundamental operations: 
-1. [[Unitary Operator]] ([[Linear Transformation]])
-2. [[3rd Postulate - Quantum Measurement|measurements]]
+1. [[Unitary Transformation]]s
+2. [[Measurement]]s
 
 In quantum complexity theory, algorithms are often presented in a certain normal form: a quantum computation consists of an initialization, followed by a unitary transformation, followed by a single final measurement; just before the classical result of the algorithm is read. 
 
+## Preliminaries
+- [[Horizontal-Vertical Concatenation]]
+- [[Unitary Operator#Unitary Matrix|Unitary Matrices]]
+- [[Hermitian Operator#Hermitian Matrix|Hermitian Matrices]]
+- [[Positive Operator#Positive Matrix|Positive Matrices]]
+- [[Pure Matrix|Pure Matrices]]
+- [[Qubit#Towards a QPL|Quantum Bits]]
+- [[Tensor Product#Special Cases|Tensor Product: Special Cases]]
+- [[Unitary Transformation]]s
+- [[Measurement]]s
+- [[Pure and Mixed States]]
+- [[Density Operator#Density Matrix|Density Matrices]]
+- [[Quantum Operations on Density Matrices]]
 

@@ -13,5 +13,5 @@ Take an arbitrary [[Bloch Sphere]] vector and rotate it around the $z$-axis: in 
 The probability of which classical state it will collapse it is not effected: such a state change is called a **phase change** and it corresponds to altering the phase parameter $e^{i\varphi}$ in the state vector $|\psi\rangle$.
 **Reminder:** if the [[Qubit]] is on the equator of the sphere the probability of collapsing in $|0\rangle$ or $|1\rangle$ is 50-50, for every infinite position of the equator, this is the key insight to understand phase changes
 ![[bloch-sphere-6.png | center | 300]]
-Notice that we represent with$|+\rangle$ and $|-\rangle$ that kind of [[Quantum Mechanics Phenomenas#Superposition|Superposition]].
+Notice that we represent with $|+\rangle$ and $|-\rangle$ that kind of [[Quantum Mechanics Phenomenas#Superposition|Superposition]].
 

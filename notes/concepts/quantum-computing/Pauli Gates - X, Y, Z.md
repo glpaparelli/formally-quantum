@@ -8,6 +8,8 @@ In the matrix representation we have:$$X = \begin{bmatrix}0 & 1 \\1 & 0\end{bmat
 - $\begin{bmatrix}0 & 1 \\1 & 0\end{bmatrix}\begin{bmatrix} 0 \\ 1\end{bmatrix} = \begin{bmatrix} 1 \\ 0\end{bmatrix}$
 
 **On an arbitrary state** we get $$\begin{bmatrix}0 & 1 \\1 & 0\end{bmatrix}\begin{bmatrix} \alpha \\ \beta\end{bmatrix} = \begin{bmatrix} \beta \\ \alpha\end{bmatrix}$$
+**Geometrically** the NOT gate corresponds to the symmetry of axis $\pi/4$. 
+
 ##### Y Gate
 $$Y = \sigma_y = \begin{bmatrix}0 & -i \\i & 0\end{bmatrix}$$
 The **Y Gate** maps $|0\rangle$ to $i|1\rangle$ and $|1\rangle$ to $-1|0\rangle$

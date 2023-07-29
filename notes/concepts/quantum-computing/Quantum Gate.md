@@ -18,4 +18,4 @@ This scheme makes conceptualizing quantum computing easier.
 
 ### Single Qubit Operations
 The simplest quantum gates are single qubit gates. 
-The [[Identity Gate]], the [[Pauli Gate]]s and the [[Hadamard Gate]] are [[Unitary Operator]]s.
+The [[Identity Gate]], the [[Pauli Gates - X, Y, Z]]s and the [[Hadamard Gate]] are [[Unitary Transformation]]s.
