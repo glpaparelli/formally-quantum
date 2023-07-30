@@ -14,7 +14,7 @@ It is important to realize that a mixed state is a description of an observers k
 In particular, a given system might be in two different mixed states from the viewpoints of two different observers. Thus, the notion of mixed states does not have an independent physical meaning. 
 Physically, any quantum system is in a (possibly unknown) pure state at any given time. 
 
-[[Unitary Transformation]]s operate componentwise on mixed states. Thus, unitary transformation $S$ maps a mixed state $\lambda_1\{\mathbf{u}_1\}+ \dots + \lambda_m\{\mathbf{u}_m\}$ to $\lambda_1\{S\mathbf{u}_1\}+ \dots + \lambda_m\{S\mathbf{u}_m\}$ 
+[[Unitary Transformation]]s operate component-wise on mixed states. Thus, unitary transformation $S$ maps a mixed state $\lambda_1\{\mathbf{u}_1\}+ \dots + \lambda_m\{\mathbf{u}_m\}$ to $\lambda_1\{S\mathbf{u}_1\}+ \dots + \lambda_m\{S\mathbf{u}_m\}$ 
 
 The collapse of a [[Qubit]] takes pure states to mixed states. For instance, if we [[Measurement|measure]] a quantum bit in a state $\alpha|0\rangle + \beta|1\rangle$ but ignore the outcome of the measurement, the system enters (from our point of view) in the mixed state $|\alpha|^2\{|0\rangle\} + |\beta|^2\{|1\rangle\}$
 

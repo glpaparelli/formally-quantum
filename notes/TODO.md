@@ -1,5 +1,5 @@
-
 ### ToDO NOW
+- relation between hermitian and positive operators
 - re-read everything going through the [[Index]].
 	- bookmark: tensor product
 

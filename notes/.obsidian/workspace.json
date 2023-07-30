@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "1039f6d537b2a762",
+        "id": "049fceafba26191d",
         "type": "tabs",
         "children": [
           {
-            "id": "91917be3cadc3d1e",
+            "id": "64e1cd04f9a5227e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b18d6974923957ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "concepts/quantum-computing/Pure and Mixed States.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "concepts/quantum-computing/Pure and Mixed States.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "concepts/quantum-computing/Pure and Mixed States.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "concepts/quantum-computing/Pure and Mixed States.md"
               }
             }
           }
@@ -147,13 +160,14 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "91917be3cadc3d1e",
+  "active": "b18d6974923957ac",
   "lastOpenFiles": [
+    "Index.md",
     "ToDO.md",
+    "papers-explained/Floyd-Hoare Logic for Quantum Programs.md",
+    "README.md",
     "concepts/quantum-computing/Unitary Transformation.md",
     "concepts/linear-algebra/Unitary Operator.md",
-    "README.md",
-    "Index.md",
     "concepts/linear-algebra/Tensor Product.md",
     "imgs/matrix-product-2.png",
     "concepts/linear-algebra/Kronecker Product.md",
@@ -176,7 +190,6 @@
     "concepts/linear-algebra/Isomorphism.md",
     "concepts/linear-algebra/Trace.md",
     "concepts/linear-algebra/Similar Matrices.md",
-    "concepts/linear-algebra/Matrix Representation.md",
     "imgs/density-matrix-cpo-2.png",
     "imgs/density-matrix-cpo-3.png",
     "imgs/density-matrix-cpo-3.png",
