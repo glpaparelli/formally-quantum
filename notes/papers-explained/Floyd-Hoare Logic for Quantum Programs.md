@@ -6,6 +6,25 @@ TODO like [[Towards a Quantum Programming Language]]
 
 ## Preliminaries
 TODO like [[Towards a Quantum Programming Language]]
+#### Tensor Product of Hilbert Spaces
+**todo: organize better**
+In this section we recall the definition of [[Tensor Product]] of a family $\{\mathcal{H}_i\}$ of [[Hilbert Space]]s. 
+It is assumed that the set of quantum variables is [[Countably Infinite]], and the type of each quantum variable is either boolean or integer. 
+Thus we only need to consider a finite or countably infinite family $\{\mathcal{H}_i\}$ where each $\mathcal{H}_i$ is finite-dimensional or countably infinite-dimensional. 
+A more general notion of tensor product should be adopted in order to generalize the results of the article to the case of more quantum variables and other data types. 
+
+Let $\{|\psi_{ij_i}\rangle\}$ be an orthonormal basis of $\mathcal{H}_i$ for each $i$. 
+We write $\mathcal{B}$ for the set of tensor products of basis vectors of all $\mathcal{H}_i$; that is $$\mathcal{B} = \{\bigotimes_i|\psi_{ij_i}\rangle\}$$Then $\mathcal{B}$ is a finite or countably infinite set. 
+We only consider the case that $\mathcal{B}$ is infinite, since the case of finite $\mathcal{B}$ is simpler. 
+
+Now $\mathcal{B}$ can be written in the form of a sequence of vectors: $$B=\{|\varphi_n\rangle:n=0,1,\dots\}$$
+The tensor product of $\mathcal{H}_i$ is defined to be the Hilbert space spanned by $\mathcal{B}$, that is $$\bigotimes_i\mathcal{H}_i = \{\Sigma_n|\varphi_n\rangle:\alpha_n\in \mathbb{C}\ \text{for all}\ n\geq0\ \text{and}\ \Sigma_n|\alpha_n|^2 < \infty \}$$And we define the inner product in $\bigotimes_i \mathcal{H}_i$ as follows:$$(\Sigma_n\alpha_n|\psi_n\rangle, \Sigma_n\alpha'_n|\psi_n\rangle) = \Sigma_n\alpha_n^*\alpha_n'$$for any $\alpha_n, \alpha_n' \in \mathbb{C}, n \geq 0$. 
+
+The notion of partial trace is very useful for the description of a subsystem of a composite quantum system. Let $\mathcal{H}$ and $\mathcal{K}$ be two Hilbert spaces and an operator $A\in \mathcal{L}(\mathcal{H}\bigotimes\mathcal{K})$. 
+Then the partial [[Trace]] of $A$ on $\mathcal{H}$ is defined as $$tr_k(A)=\Sigma_i(I_\mathcal{H}\bigotimes\langle\psi_i|)A(I_\mathcal{H}\bigotimes|\psi_i\rangle)$$which is an operator on $\mathcal{H}$, where $\{\psi_i\}$ is an [[Orthonormal Basis]] of $\mathcal{K}$. It can be shown that $tr_k(A)$ does not depend on the choice of $\{\psi_i\}$. 
+In particular, if $\mathcal{H}_1$ and $\mathcal{H}_2$ are the state spaces of quantum systems $q_1$ and $q_2$, respectively, and the state of their composite system $q_1q_2$ is described by a [[Density Operator]] $\rho \in \mathcal{D}^{-}(\mathcal{H_1}\bigotimes\mathcal{H_2})$, then $tr_\mathcal{H_2}(\rho)$ is the description for the state of component system  $q_1$. 
+
+
 
 ## Syntax of Quantum Programs
 We assume a [[Countably Infinite]] set $Var$ of **quantum variables**. 

@@ -20,4 +20,4 @@ It is impossible to create an independent and identical copy of an arbitrary unk
 **Example:** it is impossible to clone a quantum variable or a [[Quantum Register]]. 
 
 ### Entanglement
-Possibility that two or more elements are in quantum states correlated with each other so that, even if transported at a great distance from each other, they maintain the correlation
+Possibility that two or more elements are in quantum states correlated with each other so that, even if transported at a great distance from each other, they maintain the correlation.

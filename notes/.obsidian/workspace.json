@@ -8,24 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "64e1cd04f9a5227e",
+            "id": "9483d9e55410b7c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index.md",
+                "file": "concepts/quantum-computing/Unitary Transformation.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b18d6974923957ac",
+            "id": "1cc30e362d1f5728",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concepts/quantum-computing/Pure and Mixed States.md",
+                "file": "concepts/linear-algebra/Unitary Operator.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a26a8acc9c6dd685",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "concepts/quantum-mechanics/2nd Postulate - Evolution.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "concepts/quantum-computing/Pure and Mixed States.md",
+                "file": "concepts/linear-algebra/Unitary Operator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "concepts/quantum-computing/Pure and Mixed States.md",
+                "file": "concepts/linear-algebra/Unitary Operator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "concepts/quantum-computing/Pure and Mixed States.md"
+                "file": "concepts/linear-algebra/Unitary Operator.md"
               }
             }
           }
@@ -160,17 +172,21 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "b18d6974923957ac",
+  "active": "1cc30e362d1f5728",
   "lastOpenFiles": [
-    "Index.md",
-    "ToDO.md",
-    "papers-explained/Floyd-Hoare Logic for Quantum Programs.md",
-    "README.md",
     "concepts/quantum-computing/Unitary Transformation.md",
     "concepts/linear-algebra/Unitary Operator.md",
-    "concepts/linear-algebra/Tensor Product.md",
-    "imgs/matrix-product-2.png",
+    "Index.md",
+    "concepts/quantum-mechanics/2nd Postulate - Evolution.md",
+    "concepts/quantum-computing/Pure and Mixed States.md",
+    "concepts/quantum-mechanics/1st Postulate - State Space.md",
+    "concepts/quantum-mechanics/Quantum Mechanics Phenomenas.md",
     "concepts/linear-algebra/Kronecker Product.md",
+    "papers-explained/Floyd-Hoare Logic for Quantum Programs.md",
+    "concepts/linear-algebra/Tensor Product.md",
+    "ToDO.md",
+    "README.md",
+    "imgs/matrix-product-2.png",
     "concepts/linear-algebra/Hermitian Operator.md",
     "concepts/linear-algebra/Positive Operator.md",
     "concepts/linear-algebra/Isometry.md",
@@ -186,10 +202,6 @@
     "concepts/linear-algebra/Norm.md",
     "concepts/linear-algebra/Eigenvalues and Eigenvectors.md",
     "concepts/linear-algebra/Rank of a Matrix.md",
-    "concepts/linear-algebra/Determinant.md",
-    "concepts/linear-algebra/Isomorphism.md",
-    "concepts/linear-algebra/Trace.md",
-    "concepts/linear-algebra/Similar Matrices.md",
     "imgs/density-matrix-cpo-2.png",
     "imgs/density-matrix-cpo-3.png",
     "imgs/density-matrix-cpo-3.png",

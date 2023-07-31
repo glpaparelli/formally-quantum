@@ -1,6 +1,6 @@
 We use the [[Dirac Notation]] to represent vectors.
 
-In the quantum circuit context we have discrete gates being applied to cause discrete changes in the quantum state. 
+In the [[The Circuit Model of Computation]] context we have discrete [[Quantum Gate]]s being applied to cause discrete changes in the quantum state. 
 We will consider only discrete computational steps, hence the second postulate can be simplified. 
 
 > The discrete time evolution of a closed quantum system is described by a **[[Unitary Operator]]**. 

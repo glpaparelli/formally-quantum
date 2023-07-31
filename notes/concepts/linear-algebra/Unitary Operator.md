@@ -1,4 +1,4 @@
-A [[Linear Operator]] $\mathcal{U}$ on a [[Hilbert Space]] $\mathcal{H}$ is called a **unitary operator**, represented as a matrix using the [[Matrix Representation]] and indicated with $U$, if $$U^\dagger U = I_\mathcal{H}$$where $I_\mathcal{H}$ is the identity operator on $\mathcal{H}$ and $U^\dagger$ is the [[Adjoint]] of $U$
+A [[Linear Operator]] $\mathcal{U}$ (on a [[Hilbert Space]] $\mathcal{H}$) is called a **unitary operator**, represented as a matrix using the [[Matrix Representation]] and indicated with $U$ where $U$ is a unitary matrix, if $$U^\dagger U = I_\mathcal{H}$$where $I_\mathcal{H}$ is the identity operator on $\mathcal{H}$ and $U^\dagger$ is the [[Adjoint]] of $U$
 
 ## Unitary Matrix
 This part is from [[Towards a Quantum Programming Language]]. 

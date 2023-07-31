@@ -1,6 +1,6 @@
 This part is from [[Towards a Quantum Programming Language]]. 
 
-[[Unitary Operator#Unitary Matrix|Unitary Matrices]], [[Linear Operator]]s
+[[Unitary Operator]]
 
 There are two kinds of operations by which we can manipulate a quantum state: **unitary transformations** and [[Measurement]]s. 
 
