@@ -15,7 +15,7 @@ In particular, a given system might be in two different mixed states from the vi
 Thus, the notion of mixed states does not have an independent physical meaning. 
 Physically, any quantum system is in a (possibly unknown) pure state at any given time. 
 
-[[Unitary Transformation]]s operate component-wise on mixed states. 
+[[Unitary Transformation on QC]]s operate component-wise on mixed states. 
 Thus, unitary transformation $S$ maps a mixed state $\lambda_1\{\mathbf{u}_1\}+ \dots + \lambda_m\{\mathbf{u}_m\}$ to $\lambda_1\{S\mathbf{u}_1\}+ \dots + \lambda_m\{S\mathbf{u}_m\}$ 
 
 The collapse of a [[Qubit]] takes pure states to mixed states. 

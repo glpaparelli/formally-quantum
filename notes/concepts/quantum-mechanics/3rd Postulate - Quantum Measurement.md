@@ -1,27 +1,26 @@
 We use the [[Dirac Notation]] to represent vectors.
 
-We postulated that closed quantum systems evolve according to a unitary operator. 
+We postulated that closed quantum systems evolve according to a unitary operator: [[2nd Postulate - Evolution]]. 
 
-We will be interested in observing and measuring some properties of a system: at some point we must allow the system to interact must allow the system to interact with the measurement apparatus of some observer (an external physical system).
+We will be interested in observing and measuring some properties of a system: at some point we must allow the system to interact with the measurement apparatus of some observer (an external physical system).
 When this happens the original system is no longer closed, and the evolution postulate is no longer appropriate for describing its evolution. 
 **The evolution of the state of a system during a measurement is not unitary.**
 
 Quantum systems do get perturbed and modified as a result of measuring them. 
 **Only the probability of observing specific values can be calculated: measurement is a non-deterministic process.** 
 
-The third postulate provides a means for describing the effects of measurements of quantum systems. 
+**The third postulate provides a means for describing the effects of measurements of quantum systems.** 
 - It is a mathematical formalism for measurements
 	- it does not tells us what measurement can be done in practice, or with what efficiency
 	- some measurements can be simple to state mathematically, but not easy to employ
-- it tells us how to compute the probability $p(m)$ that outcome $m$ occurs, and the new state of the system after the measurement with outcome $m$, applying the **measurement operators** $M_m$ (one operator for each outcome)
+- it tells us how to compute the probability $p(m)$ that the outcome $m$ occurs, and the new state of the system after the measurement with outcome $m$, applying the **measurement operators** $M_m$ (one operator for each outcome)
 
 **Measurement Postulate:**
 Quantum measurements are described by a collection $\{M_m\}$ of **measurement operators** that satisfy the **completeness relation** $$\Sigma_m(M_m^{\dagger}M_m) = I$$The index $m$ labels the measurement outcomes that may occur in the experiment.
 
-If the state of the quantum system is $|\psi\rangle$ immediately before the measurement, then for each $m$
+If the state of the quantum system is $|\psi\rangle$ immediately before the measurement, then for each possible outcome $m$
 - the probability that result $m$ occurs is given by $$p(m) = \langle\psi|M^{\dagger}_m M_m|\psi\rangle = ||M_m|\psi\rangle||^2$$
 - and the state of the system after the measurement with outcome $m$ is $$\frac{M_m|\psi\rangle}{\sqrt{\langle\psi|M^{\dagger}_m M_m|\psi\rangle}}$$
-
 **Remarks**
 - this is a mathematical formalism for measurements 
 - the state of the system after the measurement is a properly **normalized quantum state** and in general is not a scalar multiple of $|\psi\rangle$: the measurement has modified the state of the system
@@ -112,7 +111,7 @@ P_1 = |1\rangle\langle1| = \begin{bmatrix} 0 \\ 1\end{bmatrix}\begin{bmatrix} 0 
 \end{align}
 $$
 **Observable?**
-It can be viewed as a projective measurement with respect to the Hermitian matrix Z
+It can be viewed as a projective measurement with respect to the [[Hermitian Operator]] matrix [[Pauli Gates - X, Y, Z|Pauli Gate Z]] 
 $$
 Z = \begin{bmatrix} 1 & 0 \\ 0 & -1\end{bmatrix} = |0\rangle\langle0| - |1\rangle\langle1|
 $$ or also wrt the identity matrix with all eigenvalues equal to $1$
@@ -122,7 +121,7 @@ $$
 
 ## Measurement
 This part is from [[Floyd-Hoare Logic for Quantum Programs]]. 
-A quantum measurement on a system with state space $\mathcal{H}$ is described by a collection of $\{M_m\}$ [[Linear Operator]]s on $\mathcal{H}$ satisfying the following normalization condition, called **completement relation**: 
+A quantum measurement on a system with state space $\mathcal{H}$ is described by a collection of $\{M_m\}$ [[Linear Transformation]]s on $\mathcal{H}$ satisfying the following normalization condition, called **completement relation**: 
 $$\Sigma_mM^\dagger_mM_m = I_\mathcal{H}$$
 where $M_m$ are called **measurement operators**, and the index $m$ stands for the measurement outcomes that may occur in the experiment. 
 
@@ -130,5 +129,4 @@ If the state of the quantum system is in a pure state $|\psi\rangle$ immediately
 - probability that result $m$ occurs is $$p(m)=\langle\psi|M^\dagger_m|M_m|\psi\rangle = ||M_m|\psi\rangle||^2$$
 - the state of the system after the measurement is $$|\psi_m\rangle = \frac{M_m|\psi\rangle}{\sqrt{p(m)}}$$
 We can also formulate the quantum measurement postulate in the language of [[Density Operator]]s. 
-If the state of a quantum system is $\rho$ immediately before the measurement $\{M_m\}$ is performed on it, then the probability that result $m$ occur is $$p(m)=tr(M_m^\dagger M_m\rho)$$and the state of the system after the measurement is $$\rho_m= \frac{M_m\rho M^\dagger_m}{p(m)}$$
-A special class of quantum measurement will be used frequently: if a measurement $M$ has only two outcomes, say $0$ and $1$; that is $M = \{M_0, M_1\}$, then we call $M$ a yes-no measurement. 
+If the state of a quantum system is $\rho$ immediately before the measurement $\{M_m\}$ is performed on it, then the probability that result $m$ occur is $$p(m)=tr(M_m^\dagger M_m\rho)$$and the state of the system after the measurement is $$\rho_m= \frac{M_m\rho M^\dagger_m}{p(m)}$$A special class of quantum measurement will be used frequently: if a measurement $M$ has only two outcomes, say $0$ and $1$; that is $M = \{M_0, M_1\}$, then we call $M$ a yes-no measurement. 

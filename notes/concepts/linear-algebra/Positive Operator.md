@@ -1,6 +1,6 @@
 We use the [[Dirac Notation]] to represent vectors.
 
-An [[Unitary Operator]] $\mathcal{A}$ on $\mathcal{H}$ is said to be **positive** if $\langle\psi|A|\psi\rangle\geq0$ for all states $|\psi\rangle\in\mathcal{H}$. 
+An [[Unitary Transformation on QC]] $\mathcal{A}$ on $\mathcal{H}$ is said to be **positive** if $\langle\psi|A|\psi\rangle\geq0$ for all states $|\psi\rangle\in\mathcal{H}$. 
 Every positive operator is an [[Hermitian Operator]]. 
 
 ### Positive Matrix

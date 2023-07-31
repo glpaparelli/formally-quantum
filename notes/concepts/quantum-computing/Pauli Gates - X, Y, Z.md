@@ -1,8 +1,8 @@
 The [[Quantum Gate]]s known as **the Pauli Gates** $(X, Y, Z)$ are the three **Pauli matrices** $(\sigma_x, \sigma_y, \sigma_z)$ and act on a single [[Qubit]]. 
 The Pauli $X, Y, Z$ equate, respectively, to a rotation around the axes $x, y$ and $z$ of the [[Bloch Sphere]] by $\pi$ radians.
 
-##### X Gate
-The **X Gate** switches between the two basis states and it is represented with an $X$ $$X|0\rangle = |1\rangle, \ \ \ X|1\rangle = |0\rangle$$The X Gate is also called the **NOT Gate**.
+##### NOT Gate
+The **NOT Gate** switches between the two basis states and it is represented with an $X$ $$X|0\rangle = |1\rangle, \ \ \ X|1\rangle = |0\rangle$$The NOT Gate is also called the **X Gate**.
 In the matrix representation we have:$$X = \begin{bmatrix}0 & 1 \\1 & 0\end{bmatrix}$$And we can check its operation on the two basis states: 
 - $\begin{bmatrix}0 & 1 \\1 & 0\end{bmatrix}\begin{bmatrix} 1 \\ 0\end{bmatrix} = \begin{bmatrix} 0 \\ 1\end{bmatrix}$ 
 - $\begin{bmatrix}0 & 1 \\1 & 0\end{bmatrix}\begin{bmatrix} 0 \\ 1\end{bmatrix} = \begin{bmatrix} 1 \\ 0\end{bmatrix}$

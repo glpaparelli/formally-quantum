@@ -1,4 +1,4 @@
-To represent a [[Linear Operator]] with a matrix, we need to choose a [[Basis]] for the domain and the codomain of the linear operator. 
+To represent a [[Linear Transformation]] with a matrix, we need to choose a [[Basis]] for the domain and the codomain of the linear operator. 
 
 Let $V$ and $W$ be vector spaces over some field $\mathbb{F}$, and let $\mathcal{B} = {\mathbf v_1,\mathbf v_2, \dots,\mathbf v_n}$ and $\mathcal{C} = {\mathbf w_1,\mathbf w_2, \dots,\mathbf w_m}$ be ordered bases for $V$ and $W$, respectively and let $\mathcal{A}: V \rightarrow W$ be a linear operator. 
 

@@ -1,11 +1,11 @@
-A [[Linear Operator]] $\mathcal{M}$ on an [[Hilbert Space]] $\mathcal{H}$ is said to be **Hermitian** if $$M^\dagger = M$$where $M^\dagger$ is the [[Adjoint]] of $M$ and $M$ is the [[Matrix Representation]] of $\mathcal{M}$
+A [[Linear Transformation]] $\mathcal{M}$ on an [[Hilbert Space]] $\mathcal{H}$ is said to be **Hermitian** if $$M^\dagger = M$$where $M^\dagger$ is the [[Adjoint]] of $M$ and $M$ is the [[Matrix Representation]] of $\mathcal{M}$
 
 ### Hermitian Matrix
 This part is from [[Towards a Quantum Programming Language]]. 
 
 A square matrix $A\in \mathbb{C}^{n\times n}$ is **Hermitian** if $A = A^\dagger$.
 
-A matrix $A$ is Hermitian if and only if $A= SDS^\dagger$, for some [[Unitary Operator|Unitary Matrix]] $S$ and some real-valued diagonal matrix $D$. 
+A matrix $A$ is Hermitian if and only if $A= SDS^\dagger$, for some [[Unitary Transformation on QC|Unitary Matrix]] $S$ and some real-valued diagonal matrix $D$. 
 The diagonal entries of $D$ are the [[Eigenvalues and Eigenvectors|eigenvalues]] of $A$ and they are uniquely determined up to permutation. 
 The columns of $S$ are the corresponding [[Eigenvalues and Eigenvectors|eigenvectors]]. 
 

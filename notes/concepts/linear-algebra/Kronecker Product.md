@@ -1,4 +1,4 @@
-When we use the [[Matrix Representation]] for [[Linear Operator]]s, the [[Tensor Product]] can be calculated explicitly via the **Kronecker Product**. 
+When we use the [[Matrix Representation]] for [[Linear Transformation]]s, the [[Tensor Product]] can be calculated explicitly via the **Kronecker Product**. 
 
 Let $A$ be a $m\times n$ matrix and let $B$ be a $p\times q$ matrix. 
 Then: $$A \bigotimes B= \begin{bmatrix}a_{11}B & \dots & a_{1n}B \\ \dots & \dots & \dots \\ \dots & \dots & \dots \\ a_{m1}B & \dots & a_{mn}B\end{bmatrix}$$The dimension of the resulting matrix is $mp\times nq$. 

@@ -1,7 +1,5 @@
-### ToDO NOW
+### Concepts
 - relation between hermitian and positive operators
-- re-read everything going through the [[Index]].
-	- bookmark: tensor product
 
 ### Notes
 - [[T Gate]]
@@ -12,13 +10,15 @@
 
 ### Preliminaries
 **stuff to read**
-- **towards a quantum programming language (selinger):**
-	- background
+- [[Towards a Quantum Programming Language]]
+	- **preliminaries**
 		- [[Hermitian Operator#Remarks 2.1]] proof to do. 
 		- [[Positive Operator#Remarks 2.2]] proof to do.
-		- [[Unitary Transformation#Todo]] stuff + proposition to do
+		- [[Unitary Transformation on QC#Todo]] stuff + proposition to do
 		- [[CPO of Density Matrices#Proposition 3.6]] proof to do
 	- **Quantum Flow Charts**
+		- at figure 3: to understand better what is gamma and the rest of it. 
+		- [[Towards a Quantum Programming Language#TODO|BOOKMARK]] 
 - quantum and quantum information (neilseng), (first 4 chaps and maybe appendixes on probability)
 - an introduction to quantum computing (mosca)
 - foundation of quantum programming (ying)

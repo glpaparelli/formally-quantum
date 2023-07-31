@@ -27,7 +27,7 @@ A Hilbert space associated with a system $A$ will be denoted by $\mathcal{H}_A$
 
 
 ## Linear Operators on Hilbert Space
-A [[Linear Operator]] on a Hilbert Space $\mathcal{H}$ is a mapping $\mathcal{A}:\mathcal{H}\rightarrow\mathcal{H}$ that satisfy the following conditions: 
+A [[Linear Transformation]] on a Hilbert Space $\mathcal{H}$ is a mapping $\mathcal{A}:\mathcal{H}\rightarrow\mathcal{H}$ that satisfy the following conditions: 
 - $\mathcal{A}(|\psi\rangle + |\varphi\rangle)=\mathcal{A}|\psi\rangle + \mathcal{A}|\varphi\rangle$ 
 - $\mathcal{A}(\lambda|\psi\rangle)= \lambda\mathcal{A}(|\psi\rangle)$ 
 for all $|\varphi\rangle, |\psi\rangle \in \mathcal{H}$ and $\lambda \in \mathbb{C}$. 

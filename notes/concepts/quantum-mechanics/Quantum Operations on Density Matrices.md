@@ -1,6 +1,6 @@
 This part is from [[Towards a Quantum Programming Language]]
 
-The two kinds of quantum operations ([[Unitary Transformation]]s and [[Measurement]]) can both be expressed with respect to [[Density Operator#Density Matrix|Density Matrices]].
+The two kinds of quantum operations ([[Unitary Transformation on QC]]s and [[Measurement]]) can both be expressed with respect to [[Density Matrix#Density Matrix|Density Matrices]].
 
 A unitary transformation $S$ maps a [[Pure and Mixed States|pure quantum state]] $\mathbf{u}$ to $S\mathbf{u}$. 
 Thus, it maps a pure density matrix $\mathbf{u}\mathbf{u}^\top$ to $S\mathbf{u}\mathbf{u}^\top S^\dagger$. 
@@ -17,6 +17,6 @@ The [[Measurement]] operation extends linearly form pure to mixed states. Thus, 
 
 If one ignores the classical bit information that is observed from the measurement, then the resulting state is a mixed state ![[density-matrix-ops-4.png | center | 200]]Thus, collapsing a quantum bit (measuring it while ignoring the result) corresponds to setting a certain region of the density matrix to $0$. 
 
-We have seen that the effect of the two fundamental operations of quantum mechanics, [[Unitary Transformation]]s and [[Measurement]]s. can be described in terms of their action on density matrices. 
+We have seen that the effect of the two fundamental operations of quantum mechanics, [[Unitary Transformation on QC]]s and [[Measurement]]s. can be described in terms of their action on density matrices. 
 Since unitary transformations and measurements are our only means of interacting with a quantum state, it follows that there is no observable difference between mixed states which have the same density matrix representation. 
 

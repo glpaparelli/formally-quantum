@@ -11,12 +11,15 @@ We can think of the bit in abstract terms, as having a state which is either $0$
 - the representation of information is binary but each qubit contains double information respect to a bit
 
 **Similarly said:**
-The qubit is a **unit vector** in the [[Complex Numbers]] [[Vector Space]] $\mathbb{C}^2$. A generic qubit $|\psi\rangle$ is represented as $$|\psi\rangle = \alpha|0\rangle + \beta|1\rangle$$where the coefficients $\alpha$ and $\beta$, which are called **amplitudes of the state** $|\psi\rangle$, are complex numbers and obey the constraint $$|\alpha|^2 + |\beta|^2 = 1$$and they are only significant up to scalar multiplies, i.e., $q = \alpha|0\rangle + \beta|1\rangle$ and $q' = \alpha'|0\rangle + \beta'|1\rangle$ denote **the same quantum state** if $\alpha'= \gamma\alpha$ and $\beta'= \gamma\beta$ for some non-zero $\gamma \in \mathbb{C}$. 
+The qubit is a **unit vector** in the [[Complex Numbers]] [[Vector Space]] $\mathbb{C}^2$. 
+A generic qubit $|\psi\rangle$ is represented as $$|\psi\rangle = \alpha|0\rangle + \beta|1\rangle$$where the coefficients $\alpha$ and $\beta$, which are called **amplitudes of the state** $|\psi\rangle$, are complex numbers and obey the constraint $$|\alpha|^2 + |\beta|^2 = 1$$and they are only significant up to scalar multiplies, i.e., $q = \alpha|0\rangle + \beta|1\rangle$ and $q' = \alpha'|0\rangle + \beta'|1\rangle$ denote **the same quantum state** if $\alpha'= \gamma\alpha$ and $\beta'= \gamma\beta$ for some non-zero $\gamma \in \mathbb{C}$. 
 
-The term **state** (or state vector) is used as a synonym for **unit vector in a** [[Hilbert Space]]. A unit vector is a vector with [[Norm]] $=1$. 
+The term **state** (or state vector) is used as a synonym for **unit vector in a** [[Hilbert Space]]. 
+A unit vector is a vector with [[Norm]] $=1$. 
 The state of a single qubit can be described by a **linear combination** of the state $|0\rangle$ and $|1\rangle$
 $$|\psi\rangle = \alpha|0\rangle + \beta|1\rangle = \alpha\begin{bmatrix} 1 \\ 0\end{bmatrix} + \beta \begin{bmatrix} 0 \\ 1\end{bmatrix} = \begin{bmatrix} \alpha \\ \beta\end{bmatrix}, \ \ \ \alpha,\beta \in \mathbb{C}$$
-The special states $|0\rangle$ and $|1\rangle$ are known as [[Computational Basis]] states, and form an [[Orthonormal Basis]] for this **vector space** ($\mathbb{C}^2$) 
+The special states $|0\rangle$ and $|1\rangle$ are known as [[Computational Basis]] states, and form an [[Orthonormal Basis]] for this **vector space** ($\mathbb{C}^2$).
+The vector $\begin{bmatrix} \alpha \\ \beta\end{bmatrix}$ is, as always, called **orthonormal basis**. 
 
 We can examine a bit to determine whether it is in state $0$ or $1$, but we **cannot examine a qubit** to determine its quantum state (the values of $\alpha$ and $\beta$).
 We can only acquire much more restricted information about the quantum state. 

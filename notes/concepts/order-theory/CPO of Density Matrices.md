@@ -1,6 +1,6 @@
 This part is from [[Towards a Quantum Programming Language]]
 
-Recall that $D_n$ is the set of [[Density Operator#Density Matrix|Density Matrices]] of dimension $n$ $$D_n=\{A\in\mathbb{C}^{n\times n}\}$$with $A$ [[Positive Operator#Positive Matrix|Positive]] [[Hermitian Operator#Hermitian Matrix|Hermitian matrix]] and [[Trace]]$(A)=\leq 1$ 
+Recall that $D_n$ is the set of [[Density Matrix#Density Matrix|Density Matrices]] of dimension $n$ $$D_n=\{A\in\mathbb{C}^{n\times n}\}$$with $A$ [[Positive Operator#Positive Matrix|Positive]] [[Hermitian Operator#Hermitian Matrix|Hermitian matrix]] and [[Trace]]$(A)=\leq 1$ 
 
 #### Löwner Partial Order
 For matrices $A, B \in \mathbb{C}^{n\times n}$, we define $A\sqsubseteq B$ if the matrix $B-A$ is a positive matrix. 
@@ -21,5 +21,5 @@ It follows, among other things, that a monotone function $f:D_n\rightarrow D_n$ 
 The converse is not in general true. 
 
 ##### Remark 3.9
-For a [[Density Operator#Density Matrix|Density Matrix]] such as![[density-matrix-cpo-1.png | center | 150]]with $B, C \neq 0$ we have: ![[density-matrix-cpo-2.png | center | 550]]but: ![[density-matrix-cpo-3.png | center]]
+For a [[Density Matrix#Density Matrix|Density Matrix]] such as![[density-matrix-cpo-1.png | center | 150]]with $B, C \neq 0$ we have: ![[density-matrix-cpo-2.png | center | 550]]but: ![[density-matrix-cpo-3.png | center]]
 The latter inequalities fails because the difference of the two matrices has null entries on the diagonal, and thus can be [[Positive Operator#Positive Matrix|positive]] only if the corresponding non-diagonal entries also vanish. 

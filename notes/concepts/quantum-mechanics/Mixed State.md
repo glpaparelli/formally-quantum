@@ -2,7 +2,7 @@ A mixed quantum state, on the other hand, is a statistical ensemble of [[Pure St
 
 It corresponds to a probabilistic mixture of pure states, where different distributions of pure states can generate equivalent mixed states.
 
-A mixed state cannot be described by a single ket vector (using the [[Dirac Notation]]), but rather by a [[Density Operator]]. 
+A mixed state cannot be described by a single ket vector (using the [[Dirac Notation]]), but rather by a [[Density Matrix]]. 
 A density matrix is a [[Positive Operator]] semi-definite matrix that has [[Trace]] $1$ 
 
 In quantum mechanics, mixed states arise in two different situations: 

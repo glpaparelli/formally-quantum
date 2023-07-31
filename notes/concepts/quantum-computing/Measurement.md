@@ -4,7 +4,6 @@ This part is from [[Towards a Quantum Programming Language]].
 The second fundamental operation on the state of a quantum system is known as **measurement**.
 This occurs when we try to observe the value of a [[Qubit]] and convert it into a classical bit. 
 
-
 ### 1-Qubit Measurement
 Consider for instance the state of a single qubit $q = \alpha|0\rangle + \beta|1\rangle$. 
 Let's assume that the amplitudes have been normalized such that $|\alpha|^2+|\beta|^2 = 1$. 

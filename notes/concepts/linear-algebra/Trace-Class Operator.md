@@ -1,6 +1,6 @@
 We use the [[Dirac Notation]] to represent vectors.
 
-A **trace-class operator** is a [[Linear Operator]] for which a [[Trace]] may be defined, such that the trace is a finite number independent of the choice of the basis used to compute the trace. 
+A **trace-class operator** is a [[Linear Transformation]] for which a [[Trace]] may be defined, such that the trace is a finite number independent of the choice of the basis used to compute the trace. 
 
 An operator $\mathcal{A}$ is said to be a trace-class operator if $\{\langle\psi_i|A|\psi_i\rangle\}_{i\in I}$ is a [[Summable Sequence]], hence the trace is well-defined and finite, for any orthonormal basis of $\{|\psi_i\rangle\}_{i\in I}$. 
 

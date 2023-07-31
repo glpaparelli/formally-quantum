@@ -1,6 +1,6 @@
 The determinant is a scalar value that is a function of the entries of a square matrix. 
 
-It characterizes some properties of the matrix and the [[Linear Operator]] represented by the matrix. 
+It characterizes some properties of the matrix and the [[Linear Transformation]] represented by the matrix. 
 
 In particular, the determinant is nonzero if and only if the matrix is an [[Invertible Matrix]] and the linear map represented by the matrix is an [[Isomorphism]]. 
 
