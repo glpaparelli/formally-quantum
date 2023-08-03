@@ -27,6 +27,27 @@ Indeed, there are no single qubit states $\psi_1 = \alpha|0\rangle + \beta|1\ran
 
 For all $\alpha_0, \alpha_1, \beta_0, \beta_1 \in \mathbb{C}$
 $$|\psi_1\rangle \bigotimes |\psi_2\rangle = \begin{bmatrix} \alpha \\ \beta\end{bmatrix} \bigotimes \begin{bmatrix} \gamma \\ \delta\end{bmatrix} = \begin{bmatrix} \alpha\gamma \\ \alpha\delta \\ \beta\gamma \\ \beta\gamma\end{bmatrix} \neq \frac{1}{\sqrt2}\begin{bmatrix} 1 \\ 0 \\ 0 \\ 1\end{bmatrix}$$
+
+**Alternatively Said:**
+This part is from [[Towards a Quantum Programming Language]].
+An interesting fact about [[Qubit]]s is that the states of two or more qubits is not just a tuple of its components. 
+The four possible states of a pair of classical bits are $00, 01, 10, 11$. 
+The state of a pair of quantum bits is a formal complex linear combination of these four classical states, i.e., it is a linear combination of the form $$\alpha_{00}|00\rangle + \alpha_{01}|01\rangle + \alpha_{10}|10\rangle + \alpha_{11}|11\rangle = \Sigma_{i,j \in \{0,1\}}\alpha_{ij}|ij\rangle$$As before we require that at least one of the $\alpha_{ij}$ is non-zero and the whole state is only well-defined up to complex scalar multiple. 
+If $q = \alpha|0\rangle + \beta|1\rangle$ and $p = \gamma|0\rangle + \delta|1\rangle$ are two independent quantum bits, then their combined state is obtained through the [[Tensor Product]], using the [[4th Postulate - Composition of Systems]]: 
+$$q \bigotimes p=\alpha\gamma|00\rangle+\alpha\beta|01\rangle+\beta\gamma|10\rangle+\beta\gamma|11\rangle$$
+However, note that in general, the state space of a pair of quantum bits needs not to be of the form $q \bigotimes p$
+For instance, the state $$\frac{1}{\sqrt2}|00\rangle + \frac{1}{\sqrt2}|11\rangle$$is not in the form $q \bigotimes p$. 
+If the state of a pair of quantum bits is in the form $q \bigotimes p$ then the pair is said to be **independent**, otherwise it is called **entangled**.
+To understand why this state is entangled, we can look at the probabilities of measuring the individual qubits in the state $|0\rangle$ or $|1\rangle$. 
+If the two qubits were independent, then the probability of measuring the first qubit in the state $|0\rangle$ would be $\frac{1}{\sqrt2}$ and the probability of measuring the second qubit in the state $|0\rangle$ would also be $\frac{1}{\sqrt2}$. However, in the entangled state $\frac{1}{\sqrt2}|00\rangle + \frac{1}{\sqrt2}|11\rangle$, the probability of measuring the first qubit in the state $|0\rangle$ is $\frac{1}{\sqrt2}$, but the probability of measuring the second qubit in the state $|0\rangle$ is also $\frac{1}{\sqrt2}$. 
+**This means that the two qubits are correlated in a way that cannot be explained by independent states.**
+In fact, the entangled state $\frac{1}{\sqrt2}|00\rangle + \frac{1}{\sqrt2}|11\rangle$ assumes that the pair is with probability 0 in the state $|10\rangle$ and with probability 0 in the state $|11\rangle$. 
+This means that if we measure one qubit to be in the state $|0\rangle$, then we know with certainty that the other qubit is also in the state $|0\rangle$. 
+Similarly, if we measure one qubit to be in the state $|1\rangle$, then we know with certainty that the other qubit is also in the state $|1\rangle$. This correlation between the two qubits is what makes the state entangled
+
+
+In general, the state of $n$ quantum bits is a non-zero vector in $\mathbb{C}^{2^n}$, i.e., a formal linear combination $$\Sigma_{b_1,\ \dots,\ b_n \in \{0,1\}}\alpha_{b_1,\ \dots,\ b_n}|b_1,\ \dots,\ b_n\rangle$$taken modulo scalars multiples. 
+
 ### Composite Systems
 Suppose we have a 2-qubit composite system $|\Psi_1\rangle \bigotimes |\Psi_2\rangle$ and we apply the NOT gate $X$ only to the first qubit
 ![[composite-system-1.png | center | 400]]

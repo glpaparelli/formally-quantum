@@ -33,16 +33,13 @@
 15. [[Tensor Product]]
 	1. [[Kronecker Product]]
 16. [[Cylinder Extension]]
-
 ### Quantum Mechanics
 1. [[Quantum Mechanics Phenomenas]]
 2. [[1st Postulate - State Space]]
-	1. [[Pure and Mixed States]]
-		1. [[Pure State]] & [[Mixed State]]
+	1. [[Quantum States]]
 3. [[2nd Postulate - Evolution]]
 4. [[3rd Postulate - Quantum Measurement]]
 5. [[4th Postulate - Composition of Systems]]
-
 ### Quantum Computing
 1. [[Introduction]]
 3. [[Quantum Coin Flip]]
@@ -62,7 +59,6 @@
 11. [[Measurement]]
 12. [[Quantum Operations on Density Matrices]]
 13. [[Quantum Algorithms]]
-
 ## Formal Methods Stuff
 1. [[Towards a Quantum Programming Language]]
 	1. [[CPO of Density Matrices]]

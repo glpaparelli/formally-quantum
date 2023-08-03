@@ -112,4 +112,4 @@ Computing this linear operator is equal to calculating the [[Inner Product]] $\l
 Similarly we can define $|\varphi\rangle_\bar{q}$ and $|\varphi\rangle_\bar{q}\langle\psi|$ when $\bar{q}$ is a quantum register and $|\varphi\rangle$ and $|\psi\rangle$ are states in $\mathcal{H}_\bar{q}$. 
 
 Let's consider an example in the case of $type(q) = \textbf{Integer}$. 
-First we examine a special case where $\rho$ is a [[Pure State]] 
+First we examine a special case where $\rho$ is a [[Quantum States]] 

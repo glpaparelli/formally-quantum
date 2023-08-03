@@ -12,7 +12,7 @@ Given an [[Orthonormal Basis]] $\{\psi_i\}_{i\in I}$. The cardinality of $I$ is 
 
 **A Hilbert Space is defined as a complete inner product space; that is an inner product space in which each Cauchy sequence of vectors has a limit.** 
 
-According to the [[1st Postulate - State Space]], the state space of an isolated quantum system is represented by a Hilbert space, and a [[Pure and Mixed States|pure state]] of the system is described by a unit vector (up to phase shift) in its state space (more on that later)
+According to the [[1st Postulate - State Space]], the state space of an isolated quantum system is represented by a Hilbert space, and a [[Quantum States|pure state]] of the system is described by a unit vector (up to phase shift) in its state space (more on that later)
 
 If $S$ is a subset of a Hilbert space $\mathcal{H}$, the set of vectors orthogonal to $S$ is defined by
 $$S^\bot = \{\mathbf{x} \in \mathcal{H} : (\mathbf{x}, \mathbf{s}) = 0\ \forall  \mathbf{s} \in S\}$$

@@ -9,7 +9,7 @@ A [[Unitary Transformation]] on $n$ quantum bits is also known as $n-$ary [[Quan
 While every unitary matrix can be realized in principle, one usually assume a fixed finite set of gates that are built in into the hardware. 
 The particular choice is not important because the compiler will be able to translate such set to another. 
 One possible choice is the following, which consists in four unary and five binary gates:
-- [[Pauli Gates - X, Y, Z#X Gate|NOT Gate]]
+- [[Pauli Gates - X, Y, Z#NOT Gate|NOT Gate]] 
 - [[Hadamard Gate]]
 - [[V Gate]]
 - [[W Gate]]
