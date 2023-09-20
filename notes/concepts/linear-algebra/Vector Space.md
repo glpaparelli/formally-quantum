@@ -28,5 +28,5 @@ For every $\mathbf{v} \in V$ and for every $s \in F$ we have, thanks to the axio
 The **subtraction of two vectors** can be defined as $\mathbf{v} - \mathbf{w} = \mathbf{v} + (-\mathbf{w})$.
 
 We will use the **complex vector space**, which is a vector space where $F = \mathbb{C}$, the set of [[Complex Numbers]]
-A vector space can be infinite, but in most application in quantum computation, **finite vector spaces** are used and denoted by $\mathbb{C}^n$. 
+A vector space can be infinite, but in most application in quantum computation, **finite vector spaces** are used, and denoted by $\mathbb{C}^n$. 
 In this case the vectors have $n$ complex entries. 

@@ -31,7 +31,7 @@ To mitigate this problem we divide $\theta$ by two (i.e., we double the "latitud
 These two angles can be used to define a point on the three-dimensional sphere of $\mathbb{R}^3$ of radius $1$, the Bloch sphere.
 There is a **biunivocal correspondence** between qubits and **points on the Bloch sphere:** every point on the Bloch sphere corresponds to a unique state.
 
-**Two angles correspond to the longitude and the latitude needed to specify any position on the sphere:** 
+**Two angles correspond to the longitude and the latitude needed to specify any position on the sphere:**
 - $\theta$ is equivalent to the geometrical **latitude** on the sphere: it is angle that $|\psi\rangle$ makes with the $z$ axis
 - $\varphi$ is equivalent to the **longitude**: the angle between the projection of $|\psi\rangle$ on the plane $(x,y)$ and the $x$ axis
 ![[bloch-sphere-4.png | center | 400]]

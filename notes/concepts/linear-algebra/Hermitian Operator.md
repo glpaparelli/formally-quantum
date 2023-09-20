@@ -1,11 +1,10 @@
 A [[Linear Transformation]] $\mathcal{M}$ on an [[Hilbert Space]] $\mathcal{H}$ is said to be **Hermitian** if $$M^\dagger = M$$where $M^\dagger$ is the [[Adjoint]] of $M$ and $M$ is the [[Matrix Representation]] of $\mathcal{M}$
-
 ### Hermitian Matrix
 This part is from [[Towards a Quantum Programming Language]]. 
 
-A square matrix $A\in \mathbb{C}^{n\times n}$ is **Hermitian** if $A = A^\dagger$.
+A square matrix $A\in \mathbb{C}^{n\times n}$ is **Hermitian** if $A = A^\dagger$ (if $A$ is equal to its [[Adjoint]], aka, its complex conjugate transposed)
 
-A matrix $A$ is Hermitian if and only if $A= SDS^\dagger$, for some [[Unitary Transformation on QC|Unitary Matrix]] $S$ and some real-valued diagonal matrix $D$. 
+A matrix $A$ is Hermitian if and only if $A= SDS^\dagger$, for some [[Unitary Matrix]] $S$ and some real-valued diagonal matrix $D$. 
 The diagonal entries of $D$ are the [[Eigenvalues and Eigenvectors|eigenvalues]] of $A$ and they are uniquely determined up to permutation. 
 The columns of $S$ are the corresponding [[Eigenvalues and Eigenvectors|eigenvectors]]. 
 
@@ -16,7 +15,6 @@ If the determinant is zero then the matrix is a [[Pure Matrix]].
 
 Note that if the matrix $M$ is Hermitian then $\mathbf{u}^\top M \mathbf{u}$ is always a real number. 
 Note that Hermitian matrices are closed under addition and real scalar multiples, i.e., they form a $\mathbb{R}$-linear subspace of $\mathbb{C}^{n\times n}$.
-
 #### Remarks 2.1
 Any complex $\mathbb{C}^{n\times n}$ matrix is a linear combination of four [[Positive Operator|positive]] Hermitian matrices.
 **proof:** todo

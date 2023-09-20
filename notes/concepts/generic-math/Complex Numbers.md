@@ -17,7 +17,6 @@ If $z$ is a real number (if $y = 0$), then $r = |x|$.
 Said simple: the absolute value of a real number equals to its absolute value as a complex number. 
 
 Every complex number $z = a + ib \in \mathbb{C}$ has its **complex conjugate** $z^* = a -ib \in \mathbb{C}$.   
-
 ### Modulus and Argument 
 An alternative option for coordinates in the complex plane is the **polar coordinate system** that uses the distance from the point $z$ to the origin $O$, and the angle subtended between the positive real axis and the segment $Oz$ in a counterclockwise sense. 
 

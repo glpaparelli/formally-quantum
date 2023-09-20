@@ -9,5 +9,5 @@ We can give a matrix representation of $\mathcal{A}$ as follows:
 
 Clearly, if the linear operator has the same vector space for domain and codomain the basis used will be the same.
 
-This matrix representation of a linear operator allows us to perform computations and transformations on vectors and vector spaces using matrix operations.
+This matrix representation of a linear operator allows us to perform computations and transformations on vectors and [[Vector Space]]s using matrix operations.
 It also provides a way to compare and analyze different linear operators based on their matrix representations.

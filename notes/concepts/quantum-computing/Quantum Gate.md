@@ -15,7 +15,6 @@ To represent the operation of particular gates we use matrices.
 Since the state of a qubit register can be given by kets or column matrices, operations on them can be represented by square matrices. 
 **Multiply an input state column matrix with the matrix for the quantum gate, we obtain the output state.**
 This scheme makes conceptualizing quantum computing easier. 
-
 ### Single Qubit Operations
 The simplest quantum gates are single qubit gates. 
 The [[Identity Gate]], the [[Pauli Gates - X, Y, Z]]s and the [[Hadamard Gate]] are [[Unitary Transformation on QC]]s.

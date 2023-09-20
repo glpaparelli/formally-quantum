@@ -1,3 +1,5 @@
+We use the Complex Numbers as a Field in the Vector Space, but the following is true also for other fields.
+
 The **inner product** in the [[Complex Numbers]] field $\mathbb{C}$ is a binary operation $(.,.): V \times V \rightarrow \mathbb{C}$.
 
 The inner product in a complex vector space satisfies several properties, including **linearity**, **conjugate symmetry**, and **positive-definiteness**. 
@@ -22,4 +24,6 @@ $$(\mathbf{v}, \mathbf{w}) = \Sigma_{i=1}^n \ a^*_ib_i$$
 Where $a_i^*$ is the complex conjugate of $a_i$. 
 This expression is equivalent to the matrix product of the transpose-conjugate vector, which is usually denoted by $\mathbf{v}^\dagger$, by $\mathbf{w}$. 
 
-Note that: $$(\mathbf{u}, \mathbf{u}) = \Sigma_i|u_i|^2\geq0$$
+Notice this important property: $$(\mathbf{u}, \mathbf{u}) = \Sigma_i|u_i|^2\geq0$$said easy: the inner product of a vector with itself is always $\geq$ 0.
+
+The [[Dot Product]] is a special case of the Inner Product.

@@ -1,9 +1,11 @@
 This part is from [[Towards a Quantum Programming Language]]. 
 There are two kinds of operations by which we can manipulate a quantum state: [[Unitary Transformation]]s and [[Measurement]]s. 
 
+Now we see the **Unitary Transformations**. 
+
 **The state of a quantum system can be transformed by applying a unitary transformation to it.** 
 For instance, consider a [[Qubit]] in state $u = \alpha|0\rangle + \beta|1\rangle$, and let $S$ be a unitary $2\times 2$ matrix. 
-The  we can perform the operation $$\begin{bmatrix}\alpha \\ \beta\end{bmatrix}\rightarrow S\begin{bmatrix}\alpha \\ \beta\end{bmatrix}$$Similarly, if $v = \alpha|00\rangle + \beta|01\rangle + \gamma|10\rangle + \delta|11\rangle$ is the state of a two-qubit quantum system, we can transform it by a unitary $4 \times 4$ matrix, and similarly for three or more quantum bits. 
+Then we can perform the operation $$\begin{bmatrix}\alpha \\ \beta\end{bmatrix}\rightarrow S\begin{bmatrix}\alpha \\ \beta\end{bmatrix}$$Similarly, if $v = \alpha|00\rangle + \beta|01\rangle + \gamma|10\rangle + \delta|11\rangle$ is the state of a two-qubit quantum system, we can transform it by a unitary $4 \times 4$ matrix, and similarly for three or more quantum bits. 
 
 A [[Unitary Transformation]] on $n$ quantum bits is also known as $n-$ary [[Quantum Gate]]. 
 While every unitary matrix can be realized in principle, one usually assume a fixed finite set of gates that are built in into the hardware. 

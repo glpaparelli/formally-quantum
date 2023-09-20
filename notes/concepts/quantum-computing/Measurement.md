@@ -16,7 +16,7 @@ If we measure the value of the first bit, one of the following things will happe
 - with probability $|\alpha|^2 + |\beta|^2$ the result of the measurement will be $0$ and the quantum state will collapse to $\alpha|00\rangle + \beta|01\rangle$
 - with probability $|\gamma|^2+ |\delta|^2$ the result of the measurement will be 1 and the quantum state will collapse to $\gamma|10\rangle + \delta|11\rangle$ 
 
-Note that only the portion of the quantum state pertaining to the bit that we are observing collapses. 
+**Note that only the portion of the quantum state pertaining to the bit that we are observing collapses.** 
 
 If we were observing the second bit instead the observed answer would be $0$ with probability $|\alpha|^2 + |\gamma|^2$ and $1$ with probability $|\beta|^2+|\gamma|^2$, and the quantum state would collapse to $\alpha|00\rangle + \gamma|10\rangle$ or $\beta|01\rangle + \delta|11\rangle$ respectively. 
 

@@ -10,4 +10,4 @@ The [[Trace]] of a Kronecker product of matrices is $$tr(A\bigotimes B) = tr(A)\
 
 **Reminder:**
 The Kronecker product is a binary operation on two matrices of arbitrary size, resulting in a block matrix of larger size that contains all the possible products of the entries of the two matrices.
-The [[Matrix Product]] is a binary operation on two matrices of compatible sizes, resulting in a new matrix whose entries are computed as the dot product of the corresponding row and column vectors.
+The [[Matrix Product]] is a binary operation on two matrices of compatible sizes, resulting in a new matrix whose entries are computed as the [[Dot Product]] of the corresponding row and column vectors.

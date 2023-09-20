@@ -1,6 +1,7 @@
 ### Concepts
 - relation between hermitian and positive operators
 ### Notes
+- [[Hilbert Space]], todo
 - [[T Gate]]
 - [[Phase Gate]]
 - [[Quantum Algorithms]]: example of an algorithm (Grover ?).
@@ -19,6 +20,9 @@
 - an introduction to quantum computing (mosca)
 - foundation of quantum programming (ying)
 ## Papers
-### Hoare Logic
+
+#### Quantum Programming Language
+- Towards a Quantum Programming Language
+#### Hoare Logic
 - Floyd-Hoare Logic for Quantum Programs (ying)
 	- An Applied Quantum Hoare Logic (ying)

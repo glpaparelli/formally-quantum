@@ -29,7 +29,7 @@ $$
 \begin{align}
 A \bigotimes B = \\(|v\rangle\langle v|)\bigotimes (|w\rangle \langle w|) = \\ |v\rangle\langle v|\bigotimes|w\rangle\langle w| =\\ |v, w\rangle\langle v,w| \ \ \  \
 \end{align}
-$$(remember the notation: $|v,w\rangle$ is the tensor product between $|v, w\rangle$)
+$$(remember the notation: $|v,w\rangle$ is the tensor product between $|v\rangle,  |w\rangle$)
 
 If $A_1$ and $A_2$ are operators in $V$ and $B_1, B_2$ are operators in $W$, then the composition or the matrix product of the matrix representations obey the property $$(A_1\bigotimes B_2)(A_2 \bigotimes B_2)= (A_1A_2)\bigotimes (B_1B_2)$$
 The [[Inner Product]] of $|v_1\rangle \bigotimes |w_1\rangle$ by $|v_2\rangle \bigotimes |w_2$ is defined as $$(|v_1\rangle \bigotimes |w_2), |v_2\rangle \bigotimes |w_2\rangle)= \langle v_1|v_2\rangle\langle w_1|w_2\rangle$$

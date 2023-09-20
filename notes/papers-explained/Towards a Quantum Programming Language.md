@@ -1,47 +1,52 @@
 Summary, comment and explanation of [this](https://www.mathstat.dal.ca/~selinger/papers/papers/qpl.pdf). 
 ## Introduction
-Quantum Computation is traditionally studied at hardware level: either in terms of [[Quantum Gate]]s and [[The Circuit Model of Computation|Circuits]] or in term of quantum Turing machines. 
-The former viewpoint emphasizes data
+Quantum Computation is traditionally studied at hardware level: either in terms of [[Quantum Gate]]s and [[The Circuit Model of Computation|Circuits]] or in term of Quantum Turing Machines. 
+The former viewpoint emphasizes data flow and neglects control flow. 
+On the other hand, quantum Turing machines can express both data flow and control flow, but in a sense that is sometimes considered too general to be a suitable foundation for implementations of future quantum computers. 
 
-flow and neglects control flow. On the other hand, quantum turing machines can express bot data flow and control flow, but in a sense that is sometimes considered too general to be a suitable foundation for implementations of future quantum computers. 
-
-Our approach is to investigate quantum computation from the point of view of programming languages. 
+**Our approach is to investigate quantum computation from the point of view of programming languages.** 
 We propose a view of quantum computation which is able to express both data flow and control flow, while non relying on any particular hardware model. 
 This approach can be summarized by the slogan **"quantum data, classical control"**. 
 Thus, the data which is manipulated by the programs may involve quantum [[Quantum Mechanics Phenomenas#Superposition|superpositions]], but the control state of a program is classical: there is no "quantum branching" and no notion of executing a quantum superposition of two different statements. 
 
-The programming language presented is **functional**, in the sense that each (atomic or composed) statement operates by transforming a specific set of inputs to outputs. 
+The programming language presented is **functional**, in the sense that each (atomic or composed) statement operates by transforming a specific set of inputs to outputs.
 This is in contrast to **imperative** programming language, which operate by updating global variables.
-Our language is also **statically** typed, which implies that the well-formedness of a program can be checked at compile time. For instance, the principle of non-duplication of quantum data, known as the [[Quantum Mechanics Phenomenas#No-Cloning|no-cloning]] property, is enforced by the syntax of our language. 
+Our language is also **statically** typed, which implies that the well-formedness of a program can be checked at compile time. 
+For instance, the principle of non-duplication of quantum data, known as the [[Quantum Mechanics Phenomenas#No-Cloning|no-cloning]] property, is enforced by the syntax of our language. 
 In the proposed language we know that any well-typed program is free of runtime errors. 
 
 The language also provides high-level control features such as loops and recursion, and it can accommodate structured data types such as lists or trees. 
 
 The most important feature of the proposed language is that it admits a **denotational semantics**. 
-This is achieved by assigning a certain kind of [[Linear Transformation]], called a **superoperator**, to each program fragment. 
-For the semantics of loops and recursion we use the fact that the superoperators of each given type form a CPO. 
-The proposed semantic is **fully abstract** in the sense that two programs fragments are denotationally equivalent if and only if they are indistinguishable in the context of any larger program. 
+This is achieved by assigning a certain kind of [[Linear Transformation]], called a **super-operator**, to each program fragment. 
+For the semantics of loops and recursion we use the fact that the super-operators of each given type form a CPO. 
+The proposed semantic is **fully abstract** in the sense that two programs fragments are denotationally equivalent if and only if they are indistinguishable in the context of any larger program (remember the compositionality principle)
 
 While the semantics of our quantum programming language can (and will) be described without reference to any particular hardware model, it helps the intuition of a particular hardware device on which the language can be implemented. 
 We use the **QRAM** machine, which is a general-purpose classical computer which controls a special quantum hardware device.
 The quantum device provides a potentially large number of individually addressable [[Qubit]]s. 
-This qubits can be manipulated via two fundamental operations: 
+These qubits can be manipulated via two fundamental operations: 
 1. [[Unitary Transformation on QC]]s
 2. [[Measurement]]s
 
-In quantum complexity theory, algorithms are often presented in a certain normal form: a quantum computation consists of an initialization, followed by a unitary transformation, followed by a single final measurement; just before the classical result of the algorithm is read. 
-
+In quantum complexity theory, algorithms are often presented in a certain normal form. 
+A quantum computation consists of: 
+- initialization
+- unitary transformation
+- single final measurement
+- read the classical result
 ## Preliminaries
 - [[Horizontal-Vertical Concatenation]]
-- [[Unitary Transformation on QC#Unitary Matrix|Unitary Matrices]]
+- [[Qubit#Towards a QPL|Quantum Bits]]
+- [[Quantum States]]
+- [[Quantum Register]]
+- [[Unitary Matrix]]
 - [[Hermitian Operator#Hermitian Matrix|Hermitian Matrices]]
 - [[Positive Operator#Positive Matrix|Positive Matrices]]
 - [[Pure Matrix|Pure Matrices]]
-- [[Qubit#Towards a QPL|Quantum Bits]]
 - [[Tensor Product#Special Cases|Tensor Product: Special Cases]]
 - [[Unitary Transformation on QC]]s
 - [[Measurement]]s
-- [[Quantum States]]
 - [[Density Matrix#Density Matrix|Density Matrices]]
 - [[Quantum Operations on Density Matrices]]
 - [[CPO of Density Matrices]]
@@ -49,13 +54,15 @@ In quantum complexity theory, algorithms are often presented in a certain normal
 Consider the quantum state $q = \alpha|00\rangle + \beta|01\rangle + \gamma|10\rangle + \delta|11\rangle$. 
 By identifying the basis vectors $|00\rangle, |01\rangle, |10\rangle, |11\rangle$ with the [[Computational Basis]] of $\mathbb{C}^4$, we can write the state $q$ as the column (coordinate) vector $$|q\rangle = \begin{bmatrix}\alpha\\\beta\\\gamma\\\delta\end{bmatrix}$$**Here the ordering of the basis vectors is relevant.** 
 In general we need an indexing convention which determines how the basis vectors  $|b_1\dots b_n\rangle$ are to be identified with the canonical basis vectors of $\mathbb{C}^{2^n}$. 
+In $\mathbb{C}^{4}$ the basis vectors are, as stated before, $\{|00\rangle, |01\rangle, |10\rangle, |11\rangle\}$. 
+We identify vectors using a sequence of bits: the sequence $00$ identifies the vector $$|00\rangle = \begin{bmatrix}1\\0\\0\\0\end{bmatrix}$$
 ###### Convention 3.1
 > **Lexicographic Convention**
 	Consider the set of bit vectors of length $n$, i.e., tuples $(b_1, b_2,\ \dots,\ b_n)$, where each $b_i \in \{0,1\}$.
-	We identify each such bit vector with the number $i \in [0, 2^{n-1}]$ of which it is the binary representation (there are $2^n$ possible bit vectors, every possible combination of $0$ and $1$). 
+	We identify each bit vector with the number $i \in [0, 2^{n-1}]$ of which it is the binary representation (there are $2^n$ possible bit vectors, every possible combination of $0$ and $1$). 
 	We also identify the "ket" $|b_1b_2\dots b_n\rangle$ with the $i-th$ canonical basis vector of $\mathbb{C}^{2^n}$ 
 
-Note that this convention is equivalent to saying that the bit vectors shall always be ordered lexicographically when they are used to index the rows or the columns of some vector or matrix. 
+**Note that this convention is equivalent to saying that the bit vectors shall always be ordered lexicographically when they are used to index the rows or the columns of some vector or matrix.** 
 
 Sometimes we need to consider a permutation of quantum bits, such as exchanging the 1st and the 2nd qubit in a sequence. 
 This induces a corresponding permutation of states. 
@@ -65,7 +72,8 @@ As an illustration, consider the permutation $\phi$ such that $\phi(1) = 2,\ \ph
 Then $2^\phi(b_1,b_2,b_3) = (b_3, b_1, b_2)$, thus $2^\phi$ maps $000\rightarrow 000,\ 100\rightarrow 010,\ 110\rightarrow 011$ and so forth 
 ## Quantum Flow Charts
 How can we design a quantum programming language and how we can define its semantics? 
-The first problem is to define the syntax. We choose to represent programs as **flow charts**, also known as **control flow diagrams**.
+**The first problem is to define the syntax.** 
+We choose to represent programs as **flow charts**, also known as **control flow diagrams**.
 However ours flow charts have a more functional "flavor": in our settings commands act by transforming specific inputs to outputs rather than by updating a global variable. 
 Thus we combine the language of control flow with some elements of data flow. 
 ### Classical Flow Charts 
@@ -93,6 +101,7 @@ For example, an edge labeled with a boolean variable $b$ can be replaced by two 
 Similarly an edge labelled with two boolean variables can be replaced with four parallel edges.
 **In this way each classical flow charts can be transformed into an equivalent (though much larger) flow chart that uses no variables.** 
 After such transformation each conditional branch has a predetermined outcome, and each assignment corresponds to a jump to the appropriate parallel component. 
+
 The transformation of the Figure 1 is here shown: 
 **Figure 2:**![[flow-chart-2.png | center | 500]]Here the four entrance points of the expanded program correspond to the four possible pairs of boolean inputs of the original program and the four exit points corresponds to the four possible potential pairs of boolean outputs. 
 
@@ -143,7 +152,10 @@ Quantum flow charts are similar to classical flow charts, except that we add a n
 A unitary transformation operates on one or more quantum bits; we write $$q \doteq S$$for the operation applying a unitary [[Quantum Gate]] $S$ to the quantum bit $q$.
 Note that this operation updates $q$; the notation in analogous to the notation $b:=1$ for classical assignment. 
 For the application of a binary quantum gate $S$ to a pair $p,q$ of quantum bits we use the notation $$p,q\doteq S$$and so forth for gates of higher arity. 
-Sometimes we also use special notations such as $q\  \oplus= 1$ for $q \doteq N$ and $q\ \oplus=p$ for $p,q \doteq N_c$, where $N$ and $N_c$ are the [[Pauli Gates - X, Y, Z#NOT Gate|NOT Gate]] and [[CNOT Gate]] gate, respectively. 
+
+Sometimes we also use special notations: 
+- $q\  \oplus= 1$ for $q \doteq N$ 
+- $q\ \oplus=p$ for $p,q \doteq N_c$, where $N$ and $N_c$ are the [[Pauli Gates - X, Y, Z#NOT Gate|NOT Gate]] and [[CNOT Gate]] gate, respectively. 
 
 The second new operation, the [[Measurement]], is a branching statement since it can have two possible outcomes. 
 
@@ -158,7 +170,7 @@ For instance, in the Figure 4a we have that:
 - the input $\frac{1}{\sqrt2}|00\rangle + \frac{1}{\sqrt2}|01\rangle$ leads to the output $\frac{1}{\sqrt2}|00\rangle + \frac{1}{\sqrt2}|01\rangle$ ([[4th Postulate - Composition of Systems#Entangled States|entangled qubits]])
 
 However, due to the non-probabilistic nature of measurement the output is not always a [[Quantum States|pure state]]: for example the input $\frac{1}{\sqrt2}|00\rangle + \frac{1}{\sqrt2}|01\rangle$ will lead to the output $|00\rangle$ or $|01\rangle$ with equal probability. 
-We can represent this (input)outcome with the mixed state $\frac{1}{2}\{|00\rangle\} + \frac{1}{2}\{|01\rangle\}$. 
+We can represent this outcome with the mixed state $\frac{1}{2}\{|00\rangle\} + \frac{1}{2}\{|01\rangle\}$. 
 
 As the example shows, the output of a quantum flow chart is in general a mixed state (and we may take the input to be a mixed state as well). 
 Thus, **the semantics of a quantum flow chart is given as a function from mixed states to mixed states.**

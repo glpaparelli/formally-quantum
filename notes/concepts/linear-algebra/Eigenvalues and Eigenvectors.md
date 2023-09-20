@@ -5,4 +5,4 @@ for some (complex) number $\lambda$, which is called **eigenvalue**.
 
 The eigenvalues of $\mathcal{A}$ are obtained as solutions of the **characteristic equation** $\text{det}(A - \lambda I) = 0$, where $det()$ is the [[Determinant]]. 
 
-Each operator has at least one eigenvalue. 
+Each linear operator has at least one eigenvalue. 

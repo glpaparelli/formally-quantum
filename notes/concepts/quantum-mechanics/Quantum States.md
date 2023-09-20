@@ -9,7 +9,7 @@ We use the ad hoc notation $\frac{1}{2}\{\mathbf{u}\} + \frac{1}{2}\{\mathbf{v}\
 
 In general we write $\lambda_1\{\mathbf{u}_1\}+ \dots + \lambda_m\{\mathbf{u}_m\}$ for a system which, from the viewpoint of some observer, is known to be in state $\mathbf{u}_i$ with probability $\lambda_i$, with $\Sigma_i \lambda_i = 1$. 
 Such a probability distribution on quantum states is called a **mixed state**. 
-The underlying quantum states, such as $\mathbf{u}$ are called **pure states** to distinguish them from mixed states. 
+The underlying quantum states $\mathbf{u}_i$ are called **pure states** to distinguish them from mixed states. 
 
 It is important to realize that a mixed state is a description of an observer knowledge of the state of a quantum system, rather than a property of the system itself. 
 In particular, a given system might be in two different mixed states from the viewpoints of two different observers. 

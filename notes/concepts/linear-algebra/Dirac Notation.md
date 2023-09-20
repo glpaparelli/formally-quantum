@@ -6,7 +6,7 @@ If we have an indexed basis $\{\mathbf{v}_1, ..., \mathbf{v}_n\}$ then we write,
 
 Computer scientists usually starts counting from $0$, so the first basis vector is usually called $\mathbf{v}_0$. 
 In the Dirac notation we have $\mathbf{v}_0 \equiv |0\rangle$. 
-Notice that the vector $|0\rangle$ is not the zero vector, it is only the first vector in a collection of vectors. 
+Notice that the vector $|0\rangle$ is not the zero vector: $|0\rangle$ is only the first vector in a collection of vectors. 
 In the Dirac notation the zero vector is an exception, whose notation is not modified, and we represent it with $\mathbf{0}$.
 
 Suppose the vector (coordinate vector) $|v\rangle$ has the following entries in a basis : 
@@ -23,7 +23,6 @@ $$
 \langle v | v \rangle = \Sigma_{i=1}^n \ a_i^* a_i
 $$
 **Reminder:** the matrix product between a "matrix" row vector and a "matrix" column vector behaves like the inner product: this is what we expect $1\times n$ * $n\times 1$ = a scalar
-
 **This is an example of the [[Inner Product]], which is naturally defined via the Dirac notation.** 
 **Said easy:** when we use the Dirac Notation the inner product is not notated with $(\mathbf{v}, \mathbf{u})$ but with $\langle v|w\rangle$.
 

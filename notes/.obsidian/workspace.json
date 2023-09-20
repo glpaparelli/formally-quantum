@@ -4,23 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "8b14ce4f9ec17290",
+        "id": "f6f0c8095fa9814e",
         "type": "tabs",
         "children": [
           {
-            "id": "1da5c021a1c162fc",
+            "id": "0287ee0458a55acd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers-explained/Towards a Quantum Programming Language.md",
+                "file": "concepts/quantum-computing/Measurement.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "57298063e6b25dcc",
+            "id": "08a78828b21d25aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,12 +32,36 @@
             }
           },
           {
-            "id": "ba606c8d7bbdbded",
+            "id": "b78984b80d0597a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concepts/quantum-computing/Measurement.md",
+                "file": "concepts/quantum-mechanics/Density Matrix.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "83d4cd317d754c55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "concepts/linear-algebra/Positive Operator.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f14495a2f6c4d9f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "concepts/linear-algebra/Hermitian Operator.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "unitary matrix",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers-explained/Towards a Quantum Programming Language.md",
+                "file": "concepts/quantum-computing/Measurement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers-explained/Towards a Quantum Programming Language.md",
+                "file": "concepts/quantum-computing/Measurement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers-explained/Towards a Quantum Programming Language.md"
+                "file": "concepts/quantum-computing/Measurement.md"
+              }
+            }
+          },
+          {
+            "id": "2edf374ef99adfdb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -172,43 +206,44 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "1da5c021a1c162fc",
+  "active": "0287ee0458a55acd",
   "lastOpenFiles": [
     "Index.md",
-    "concepts/quantum-mechanics/Quantum Operations on Density Matrices.md",
-    "ToDO.md",
     "papers-explained/Towards a Quantum Programming Language.md",
-    "concepts/quantum-computing/Measurement.md",
-    "imgs/flow-chart-9.png",
-    "concepts/quantum-computing/Unitary Transformation on QC.md",
-    "concepts/quantum-mechanics/Quantum States.md",
+    "concepts/quantum-mechanics/Quantum Operations on Density Matrices.md",
     "concepts/quantum-mechanics/Density Matrix.md",
-    "concepts/quantum-mechanics/Mixed State.md",
-    "concepts/quantum-mechanics/Pure State.md",
-    "imgs/flow-chart-8.png",
-    "imgs/flow-chart-8.png",
-    "concepts/quantum-mechanics/4th Postulate - Composition of Systems.md",
+    "concepts/linear-algebra/Positive Operator.md",
+    "concepts/linear-algebra/Hermitian Operator.md",
+    "concepts/quantum-computing/Measurement.md",
+    "concepts/quantum-computing/Unitary Transformation on QC.md",
+    "concepts/quantum-computing/Quantum Gate.md",
+    "concepts/linear-algebra/Unitary Transformation.md",
+    "concepts/linear-algebra/Unitary Matrix.md",
+    "concepts/quantum-computing/Quantum Register.md",
+    "concepts/quantum-mechanics/Quantum States.md",
+    "concepts/quantum-computing/Bloch Sphere.md",
     "concepts/quantum-computing/Qubit.md",
+    "concepts/quantum-mechanics/2nd Postulate - Evolution.md",
+    "concepts/linear-algebra/Horizontal-Vertical Concatenation.md",
+    "concepts/linear-algebra/Linear Transformation.md",
+    "concepts/linear-algebra/Vector Space.md",
+    "ToDO.md",
+    "concepts/linear-algebra/Hilbert Space.md",
+    "concepts/quantum-mechanics/Quantum Mechanics Phenomenas.md",
     "concepts/quantum-mechanics/1st Postulate - State Space.md",
-    "papers-explained/Floyd-Hoare Logic for Quantum Programs.md",
+    "concepts/quantum-computing/The Circuit Model of Computation.md",
+    "concepts/quantum-computing/Hadamard Gate.md",
+    "concepts/linear-algebra/Inner Product.md",
+    "imgs/flow-chart-9.png",
+    "imgs/flow-chart-8.png",
+    "imgs/flow-chart-8.png",
     "imgs/flow-chart-7.png",
     "imgs/flow-chart-7.png",
     "imgs/flow-chart-6.png",
-    "concepts/quantum-computing/Pauli Gates - X, Y, Z.md",
     "imgs/flow-chart-5.png",
     "imgs/flow-chart-5.png",
     "imgs/flow-chart-4.png",
     "imgs/flow-chart-3.png",
-    "concepts/linear-algebra/Unitary Transformation.md",
-    "concepts/linear-algebra/Linear Transformation.md",
-    "concepts/linear-algebra/Basis.md",
-    "concepts/quantum-computing/Introduction.md",
-    "concepts/quantum-mechanics/3rd Postulate - Quantum Measurement.md",
-    "concepts/linear-algebra/Unitary Matrix.md",
-    "concepts/linear-algebra/Linear Operator.md",
-    "concepts/linear-algebra/Tensor Product.md",
-    "concepts/linear-algebra/Unitary Operator.md",
-    "concepts/quantum-mechanics/2nd Postulate - Evolution.md",
     "concepts/order-theory",
     "concepts/generic-math",
     "concepts/quantum-computing",
