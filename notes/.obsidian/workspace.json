@@ -4,23 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "f6f0c8095fa9814e",
+        "id": "632eb24d3ea38208",
         "type": "tabs",
         "children": [
           {
-            "id": "0287ee0458a55acd",
+            "id": "56feaa715d194114",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concepts/quantum-computing/Measurement.md",
+                "file": "Index.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "08a78828b21d25aa",
+            "id": "9b96a36e1cc7c77d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,44 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b78984b80d0597a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "concepts/quantum-mechanics/Density Matrix.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "83d4cd317d754c55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "concepts/linear-algebra/Positive Operator.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f14495a2f6c4d9f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "concepts/linear-algebra/Hermitian Operator.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "unitary matrix",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.502254486084,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "3fcae47ea874ee1b",
@@ -134,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "concepts/quantum-computing/Measurement.md",
+                "file": "concepts/quantum-mechanics/Quantum Operations on Density Matrices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "concepts/quantum-computing/Measurement.md",
+                "file": "concepts/quantum-mechanics/Quantum Operations on Density Matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "concepts/quantum-computing/Measurement.md"
+                "file": "concepts/quantum-mechanics/Quantum Operations on Density Matrices.md"
               }
             }
           },
@@ -206,21 +170,27 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "0287ee0458a55acd",
+  "active": "9b96a36e1cc7c77d",
   "lastOpenFiles": [
-    "Index.md",
-    "papers-explained/Towards a Quantum Programming Language.md",
-    "concepts/quantum-mechanics/Quantum Operations on Density Matrices.md",
     "concepts/quantum-mechanics/Density Matrix.md",
     "concepts/linear-algebra/Positive Operator.md",
     "concepts/linear-algebra/Hermitian Operator.md",
+    "concepts/linear-algebra/Adjoint.md",
+    "concepts/quantum-mechanics/Quantum Operations on Density Matrices.md",
+    "concepts/linear-algebra/Dot Product.md",
+    "Index.md",
+    "papers-explained/Towards a Quantum Programming Language.md",
     "concepts/quantum-computing/Measurement.md",
+    "concepts/linear-algebra/Dirac Notation.md",
+    "concepts/linear-algebra/Computational Basis.md",
+    "concepts/linear-algebra/Inner Product.md",
     "concepts/quantum-computing/Unitary Transformation on QC.md",
-    "concepts/quantum-computing/Quantum Gate.md",
-    "concepts/linear-algebra/Unitary Transformation.md",
-    "concepts/linear-algebra/Unitary Matrix.md",
-    "concepts/quantum-computing/Quantum Register.md",
     "concepts/quantum-mechanics/Quantum States.md",
+    "concepts/linear-algebra/Unitary Matrix.md",
+    "concepts/linear-algebra/Unitary Transformation.md",
+    "concepts/generic-math/Complex Numbers.md",
+    "concepts/quantum-computing/Quantum Gate.md",
+    "concepts/quantum-computing/Quantum Register.md",
     "concepts/quantum-computing/Bloch Sphere.md",
     "concepts/quantum-computing/Qubit.md",
     "concepts/quantum-mechanics/2nd Postulate - Evolution.md",
@@ -228,12 +198,6 @@
     "concepts/linear-algebra/Linear Transformation.md",
     "concepts/linear-algebra/Vector Space.md",
     "ToDO.md",
-    "concepts/linear-algebra/Hilbert Space.md",
-    "concepts/quantum-mechanics/Quantum Mechanics Phenomenas.md",
-    "concepts/quantum-mechanics/1st Postulate - State Space.md",
-    "concepts/quantum-computing/The Circuit Model of Computation.md",
-    "concepts/quantum-computing/Hadamard Gate.md",
-    "concepts/linear-algebra/Inner Product.md",
     "imgs/flow-chart-9.png",
     "imgs/flow-chart-8.png",
     "imgs/flow-chart-8.png",

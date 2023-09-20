@@ -5,7 +5,7 @@ Every positive operator is an [[Hermitian Operator]].
 ### Positive Matrix
 This part is from [[Towards a Quantum Programming Language]]:
 
-A matrix $A$ is called **positive semidefinite** or simply **positive**, if it an [[Hermitian Operator#Hermitian Matrix|Hermitian matrix]] and $\mathbf{u}^\top A\mathbf{u} \geq 0\ \forall\ \mathbf{u}$.
+A matrix $A$ is called **positive semidefinite** or simply **positive**, if it is an [[Hermitian Operator#Hermitian Matrix|Hermitian matrix]] and $\mathbf{u}^\top A\mathbf{u} \geq 0\ \forall\ \mathbf{u}$.
 Positive matrices are closed under addition and non-negative real scalar multiplies. 
 
 Every positive matrix is a non-negative real linear combination of [[Pure Matrix|pure matrices]]. 

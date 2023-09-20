@@ -1,6 +1,6 @@
 This part is from [[Towards a Quantum Programming Language]]. 
-There are two kinds of operations by which we can manipulate a quantum state: [[Unitary Transformation]]s and [[Measurement]]s. 
 
+There are two kinds of operations by which we can manipulate a quantum state: [[Unitary Transformation]]s and [[Measurement]]s. 
 Now we see the **Unitary Transformations**. 
 
 **The state of a quantum system can be transformed by applying a unitary transformation to it.** 

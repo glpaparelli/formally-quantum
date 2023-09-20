@@ -2,13 +2,13 @@ This part is from [[Towards a Quantum Programming Language]]
 
 Now we introduce a better notation for [[Quantum States|mixed states]], which is due to von Neumann
 First consider a pure state, represented as usual by a unit vector $\mathbf{u}$  (a vector with [[Norm]] $=1$).
-In the von Neumann notation, this quantum state is represented by the matrix $\mathbf{u}\mathbf{u}^\top$, which is called **density matrix**.
+In the Von Neumann notation, this quantum state is represented by the matrix $\mathbf{u}\mathbf{u}^\top$, which is called **density matrix**.
 For example the state of a [[Qubit]] $u = \frac{1}{\sqrt2}|0\rangle - \frac{1}{\sqrt2}|1\rangle$ is represented by the density matrix $$\mathbf{u}\mathbf{u}^\top =\begin{bmatrix}\frac{1}{\sqrt2}\\-\frac{1}{\sqrt2}\end{bmatrix} \begin{bmatrix}\frac{1}{\sqrt2}&-\frac{1}{\sqrt2}\end{bmatrix} = \begin{bmatrix}\frac{1}{2} & -\frac{1}{2}\\-\frac{1}{2} & \frac{1}{2}\end{bmatrix}$$Note that no information about a pure state is lost in this notation, because the vector $\mathbf{u}$ is uniquely determined, up to a scalar multiple, by the matrix $\mathbf{u}\mathbf{u}^\top$. 
 To retrieve the vector $\mathbf{u}$ from the density matrix $\mathbf{u}\mathbf{u}^\top$, we can diagonalize the density matrix to obtain its [[Eigenvalues and Eigenvectors|eigenvalues]] and [[Eigenvalues and Eigenvectors|eigenvectors]]. 
 The eigenvector corresponding to the largest eigenvalue is the vector $\mathbf{u}$, up to a scalar multiple. 
 We can normalize this eigenvector to obtain the vector $\mathbf{u}$
 
-There are several advantages to the density matrix notation. 
+**There are several advantages to the density matrix notation.** 
 A mundane advantage is that we do not have to write so many square roots. 
 
 More importantly, if $\mathbf{u}= \gamma\mathbf{v}$ for some [[Complex Numbers|complex]] scalar $\gamma$ with $|\gamma| = 1$, then $$\mathbf{u}\mathbf{u}^\top= \gamma\bar{\gamma}\mathbf{v}\mathbf{v}^\top = \mathbf{u}\mathbf{u}^\top$$Thus, the scalar factor disappears, and the normalized representation of each pure quantum state as a density matrix is unique.  

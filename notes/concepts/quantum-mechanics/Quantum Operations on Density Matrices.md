@@ -4,6 +4,37 @@ The two kinds of quantum operations ([[Unitary Transformation on QC]]s and [[Mea
 
 A unitary transformation $S$ maps a [[Quantum States|pure quantum state]] $\mathbf{u}$ to $S\mathbf{u}$. 
 Thus, it maps a pure density matrix $\mathbf{u}\mathbf{u}^\top$ to $S\mathbf{u}\mathbf{u}^\top S^\dagger$. 
+
+---
+
+**Why a Unitary Transformation $S$ maps a pure density matrix $\mathbf{u}\mathbf{u}^\top$ to $S\mathbf{u}\mathbf{u}^\top S^\dagger$**
+To see why $\mathbf{uu}^\top$ is mapped to $S \mathbf{uu}^\top S^\dagger$, we can use the definition of a unitary transformation.
+A unitary transformation is a linear transformation that preserves the inner product of vectors.
+Therefore, for any vectors $\mathbf{u}$ and $\mathbf{v}$, we have $\langle S\mathbf{u},S\mathbf{v}\rangle = \langle \mathbf{u},\mathbf{v}\rangle$.
+
+Now, let's consider the pure density matrix $\mathbf{u}\mathbf{u}^\top$. 
+
+We can write this as $\mathbf{u}\mathbf{u}^\top = \langle \mathbf{u},\cdot\rangle \mathbf{u}$. 
+The notation $\langle \mathbf{u},\cdot\rangle$ denotes the inner product of a vector $\mathbf{u}$ with another vector. 
+Specifically, if $\mathbf{v}$ is another vector, then $\langle \mathbf{u},\mathbf{v}\rangle$ is the complex scalar obtained by taking the conjugate transpose of $\mathbf{u}$ and multiplying it with $\mathbf{v}$ (which is the definition of the [[Inner Product]] in the [[Vector Space]] $\mathbb{C}^n$).
+
+We can write $\mathbf{u}\mathbf{u}^\top = \langle \mathbf{u},\cdot\rangle \mathbf{u}$ because $\mathbf{u}\mathbf{u}^\top$ is a **rank-$1$ projection operator** that projects onto the one-dimensional subspace spanned by the vector $\mathbf{u}$.
+**Reminder:** *kets* $|.\rangle$ are column matrices, *bras* $\langle .|$ are row matrices.
+**A rank-$1$ projector can be seen as a matrix that takes a vector and return a vector multiplied by a scalar.**
+This matrix can be seen as a *ket-bra* vector product  $|u\rangle\langle u|$, where the bra vector $\langle u|$ has the function of going in the inner product with the vector that you pass to the matrix, giving a complex scalar. 
+Thus you remain with a scalar that multiplies the *ket* vector $|u\rangle$. 
+Therefore, when we take the inner product of $\mathbf{u}$ with another vector $\mathbf{v}$ we get $\langle \mathbf{u},\mathbf{v}\rangle = \mathbf{u}^\dagger \mathbf{v}$, which is a complex scalar. 
+Multiplying this scalar with the vector $\mathbf{u}$ gives us $\langle \mathbf{u},\cdot\rangle \mathbf{u}$
+**Said easy:** $\langle \mathbf{u},\cdot\rangle \mathbf{u}$ is a shorthand notation for the rank-$1$ projection operator $\mathbf{u}\mathbf{u}^\top$, which projects onto the one-dimensional subspace spanned by the vector $\mathbf{u}$.
+
+Applying the unitary transformation $S$ to this density matrix, we get $S\mathbf{u}\mathbf{u}^\top S^\dagger = S(\langle \mathbf{u},\cdot\rangle \mathbf{u})S^\dagger = \langle S\mathbf{u},\cdot\rangle S\mathbf{u}S^\dagger = (S\mathbf{u})(S\mathbf{u})^\dagger$
+Therefore, we see that $\mathbf{uu}^\top$ is mapped to $S \mathbf{uu}^\top S^\dagger$ because a unitary transformation preserves inner products and $\mathbf{u}\mathbf{u}^\top$ can be written as a rank-$1$ projection operator.
+$\square$
+
+---
+
+
+
 Moreover a unitary transformation extends linearly to mixed states, and thus, it takes any mixed density matrix $A$ to $SAS^\dagger$.
 
 Now consider the effect of measurement on a density matrix. 
