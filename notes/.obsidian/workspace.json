@@ -8,19 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "56feaa715d194114",
+            "id": "9b96a36e1cc7c77d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index.md",
+                "file": "concepts/quantum-mechanics/Quantum Operations on Density Matrices.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9b96a36e1cc7c77d",
+            "id": "b59d539b088e01a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "3fcae47ea874ee1b",
@@ -170,16 +171,16 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "9b96a36e1cc7c77d",
+  "active": "b59d539b088e01a2",
   "lastOpenFiles": [
+    "papers-explained/Towards a Quantum Programming Language.md",
+    "concepts/quantum-mechanics/Quantum Operations on Density Matrices.md",
     "concepts/quantum-mechanics/Density Matrix.md",
     "concepts/linear-algebra/Positive Operator.md",
     "concepts/linear-algebra/Hermitian Operator.md",
     "concepts/linear-algebra/Adjoint.md",
-    "concepts/quantum-mechanics/Quantum Operations on Density Matrices.md",
     "concepts/linear-algebra/Dot Product.md",
     "Index.md",
-    "papers-explained/Towards a Quantum Programming Language.md",
     "concepts/quantum-computing/Measurement.md",
     "concepts/linear-algebra/Dirac Notation.md",
     "concepts/linear-algebra/Computational Basis.md",

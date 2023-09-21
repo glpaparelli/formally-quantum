@@ -33,8 +33,6 @@ $\square$
 
 ---
 
-
-
 Moreover a unitary transformation extends linearly to mixed states, and thus, it takes any mixed density matrix $A$ to $SAS^\dagger$.
 
 Now consider the effect of measurement on a density matrix. 

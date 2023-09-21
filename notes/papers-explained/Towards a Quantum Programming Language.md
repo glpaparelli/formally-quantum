@@ -174,17 +174,15 @@ We can represent this outcome with the mixed state $\frac{1}{2}\{|00\rangle\} + 
 
 As the example shows, the output of a quantum flow chart is in general a mixed state (and we may take the input to be a mixed state as well). 
 Thus, **the semantics of a quantum flow chart is given as a function from mixed states to mixed states.**
-To calculate this function we use the [[Density Matrix]] notation and we assume that the input to the program is some mixed state  ![[flow-chart-6.png | center | 250]]where each of $A, B, C, D$ is a $2\times 2$ matrix. 
+To calculate this function we use the [[Density Matrix]] notation and we assume that the input to the program is some mixed state  ![[flow-chart-6.png | center | 250]]where each of $A, B, C, D$ is a $2\times 2$ matrix (a 2 qubit system is represented by a $4 \times 4$ density matrix)
 Remember the indexing convention: the rows and columns of $M$ are indexed by the basic states $00, 01,10,11$ in this respective order. 
 
 For example, if the input mixed state is $\frac{1}{\sqrt2}|00\rangle + \frac{1}{\sqrt2}|01\rangle$ then $$M = \begin{bmatrix}\frac{1}{\sqrt2}\\0 \\0\\0\end{bmatrix}\begin{bmatrix}\frac{1}{\sqrt2}&0&0&0\end{bmatrix} + \begin{bmatrix}0 \\\frac{1}{\sqrt2} \\0\\0\end{bmatrix}\begin{bmatrix}0&\frac{1}{\sqrt2}&0&0\end{bmatrix} = \begin{bmatrix}\frac{1}{2} & 0 & 0 & 0\\ 0 & \frac{1}{2} & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0\end{bmatrix}$$Notice that the mixed state $\frac{1}{\sqrt2}|00\rangle + \frac{1}{\sqrt2}|01\rangle$ is actually $\frac{1}{\sqrt2}|00\rangle + \frac{1}{\sqrt2}|01\rangle + 0|10\rangle + 0|11\rangle$ 
 
 **Remember:** A mixed state $\lambda_1\{u_1\}+\dots+\lambda_n\{u_n\}$ is simply represented as a linear combination of the density matrices of its pure components, i.e., as $\lambda_1\mathbf{u}_1\mathbf{u}_1^\top + \dots + \lambda_n\mathbf{u}_n\mathbf{u}_n^\top$. 
 
-We can now decorate the flow chart in top-down fashion, by annotating each edge with the mixed state the program is in when it reaches that edge. 
-The result is **Figure 4b:**![[imgs/flow-chart-7.png| center | 500]]([[Quantum Operations on Density Matrices]])
-
-The semantics of the entire program fragment is thus given by the following function of density matrices: 
+We can now decorate the flow chart in top-down fashion, by annotating each edge with the mixed state the program is in when it reaches that edge, keeping in mind [[Quantum Operations on Density Matrices]].
+The result is **Figure 4b:**![[imgs/flow-chart-7.png| center | 500]]The semantics of the entire program fragment is thus given by the following function of density matrices: 
 ![[flow-chart-8.png| center | 400]]
 Note that we followed the usual convention of normalizing all density matrices so that their trace equals the probability that the corresponding edge is reached. 
 This convention has several properties: 
