@@ -8,7 +8,29 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9b96a36e1cc7c77d",
+            "id": "b59d539b088e01a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "papers-explained/Towards a Quantum Programming Language.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eeac4d109dd7a8e7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
+          },
+          {
+            "id": "bb1a862337937f86",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,12 +42,36 @@
             }
           },
           {
-            "id": "b59d539b088e01a2",
+            "id": "0e2b262554efacdf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concepts/quantum-mechanics/Quantum Operations on Density Matrices.md",
+                "file": "concepts/quantum-mechanics/3rd Postulate - Quantum Measurement.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8db93e68528600cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "concepts/quantum-computing/Measurement.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc682d5c8db82888",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "concepts/quantum-computing/Unitary Transformation on QC.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +128,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 322.50073623657227
   },
   "right": {
     "id": "3fcae47ea874ee1b",
@@ -99,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "concepts/quantum-mechanics/Quantum Operations on Density Matrices.md",
+                "file": "papers-explained/Towards a Quantum Programming Language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "concepts/quantum-mechanics/Quantum Operations on Density Matrices.md",
+                "file": "papers-explained/Towards a Quantum Programming Language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "concepts/quantum-mechanics/Quantum Operations on Density Matrices.md"
+                "file": "papers-explained/Towards a Quantum Programming Language.md"
               }
             }
           },
@@ -171,39 +216,38 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "b59d539b088e01a2",
+  "active": "eeac4d109dd7a8e7",
   "lastOpenFiles": [
+    "concepts/quantum-computing/Pauli Gates - X, Y, Z.md",
+    "concepts/quantum-computing/CNOT Gate.md",
     "papers-explained/Towards a Quantum Programming Language.md",
+    "imgs/flow-chart-7.png",
     "concepts/quantum-mechanics/Quantum Operations on Density Matrices.md",
+    "concepts/quantum-mechanics/3rd Postulate - Quantum Measurement.md",
+    "concepts/quantum-computing/Measurement.md",
+    "concepts/quantum-computing/Qubit.md",
     "concepts/quantum-mechanics/Density Matrix.md",
+    "concepts/quantum-computing/Unitary Transformation on QC.md",
+    "concepts/quantum-computing/Hadamard Gate.md",
+    "concepts/quantum-computing/Quantum Gate.md",
+    "concepts/quantum-mechanics/Quantum States.md",
+    "concepts/quantum-computing/Quantum Coin Flip.md",
+    "concepts/quantum-computing/Introduction.md",
+    "Index.md",
+    "concepts/linear-algebra/Kronecker Product.md",
+    "concepts/linear-algebra/Unitary Transformation.md",
+    "concepts/linear-algebra/Linear Transformation.md",
     "concepts/linear-algebra/Positive Operator.md",
     "concepts/linear-algebra/Hermitian Operator.md",
     "concepts/linear-algebra/Adjoint.md",
     "concepts/linear-algebra/Dot Product.md",
-    "Index.md",
-    "concepts/quantum-computing/Measurement.md",
     "concepts/linear-algebra/Dirac Notation.md",
     "concepts/linear-algebra/Computational Basis.md",
     "concepts/linear-algebra/Inner Product.md",
-    "concepts/quantum-computing/Unitary Transformation on QC.md",
-    "concepts/quantum-mechanics/Quantum States.md",
     "concepts/linear-algebra/Unitary Matrix.md",
-    "concepts/linear-algebra/Unitary Transformation.md",
-    "concepts/generic-math/Complex Numbers.md",
-    "concepts/quantum-computing/Quantum Gate.md",
-    "concepts/quantum-computing/Quantum Register.md",
-    "concepts/quantum-computing/Bloch Sphere.md",
-    "concepts/quantum-computing/Qubit.md",
-    "concepts/quantum-mechanics/2nd Postulate - Evolution.md",
-    "concepts/linear-algebra/Horizontal-Vertical Concatenation.md",
-    "concepts/linear-algebra/Linear Transformation.md",
-    "concepts/linear-algebra/Vector Space.md",
-    "ToDO.md",
     "imgs/flow-chart-9.png",
     "imgs/flow-chart-8.png",
     "imgs/flow-chart-8.png",
-    "imgs/flow-chart-7.png",
-    "imgs/flow-chart-7.png",
     "imgs/flow-chart-6.png",
     "imgs/flow-chart-5.png",
     "imgs/flow-chart-5.png",

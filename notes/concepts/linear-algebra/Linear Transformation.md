@@ -32,3 +32,6 @@ The following properties and definitions holds:
 - The **null operator** $\mathcal{O}$ in $V$ is a linear operator such that $\mathcal{O}(|v\rangle)=\mathbf{0}$ for all $|v\rangle \in V$. 
 - The **rank**  of a linear operator $\mathcal{A}$ in $V$ is the dimension of the image of $\mathcal{A}$. 
 - The **kernel** of a linear operator $\mathcal{A}$ in $V$ is the set of all vectors $|v\rangle$ for which $\mathcal{A}|v\rangle = \mathbf{0}$ . 
+
+A linear transformation $A$ can be applied to a vector $|u\rangle$ by doing $A|u\rangle$. 
+It can also be applied to a matrix $M$ by doing $AMA^{-1}$.

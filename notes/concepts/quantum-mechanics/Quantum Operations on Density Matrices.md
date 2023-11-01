@@ -21,6 +21,7 @@ Specifically, if $\mathbf{v}$ is another vector, then $\langle \mathbf{u},\mathb
 We can write $\mathbf{u}\mathbf{u}^\top = \langle \mathbf{u},\cdot\rangle \mathbf{u}$ because $\mathbf{u}\mathbf{u}^\top$ is a **rank-$1$ projection operator** that projects onto the one-dimensional subspace spanned by the vector $\mathbf{u}$.
 **Reminder:** *kets* $|.\rangle$ are column matrices, *bras* $\langle .|$ are row matrices.
 **A rank-$1$ projector can be seen as a matrix that takes a vector and return a vector multiplied by a scalar.**
+A rank-1 projector is an idempotent Hermitian operator (it can be applied $n$ times and gives the same result)
 This matrix can be seen as a *ket-bra* vector product  $|u\rangle\langle u|$, where the bra vector $\langle u|$ has the function of going in the inner product with the vector that you pass to the matrix, giving a complex scalar. 
 Thus you remain with a scalar that multiplies the *ket* vector $|u\rangle$. 
 Therefore, when we take the inner product of $\mathbf{u}$ with another vector $\mathbf{v}$ we get $\langle \mathbf{u},\mathbf{v}\rangle = \mathbf{u}^\dagger \mathbf{v}$, which is a complex scalar. 
@@ -28,6 +29,7 @@ Multiplying this scalar with the vector $\mathbf{u}$ gives us $\langle \mathbf{u
 **Said easy:** $\langle \mathbf{u},\cdot\rangle \mathbf{u}$ is a shorthand notation for the rank-$1$ projection operator $\mathbf{u}\mathbf{u}^\top$, which projects onto the one-dimensional subspace spanned by the vector $\mathbf{u}$.
 
 Applying the unitary transformation $S$ to this density matrix, we get $S\mathbf{u}\mathbf{u}^\top S^\dagger = S(\langle \mathbf{u},\cdot\rangle \mathbf{u})S^\dagger = \langle S\mathbf{u},\cdot\rangle S\mathbf{u}S^\dagger = (S\mathbf{u})(S\mathbf{u})^\dagger$
+This is the definition of the application of a unitary transformation to a matrix, where $S^{-1}$ is $S^\dagger$ since $S$ is unitary.
 Therefore, we see that $\mathbf{uu}^\top$ is mapped to $S \mathbf{uu}^\top S^\dagger$ because a unitary transformation preserves inner products and $\mathbf{u}\mathbf{u}^\top$ can be written as a rank-$1$ projection operator.
 $\square$
 
@@ -39,7 +41,8 @@ Now consider the effect of measurement on a density matrix.
 We begin by considering a pure state $\mathbf{u}\mathbf{u}^\top$, for some unit ([[Norm|norm]] $=1$) vector $\mathbf{u}$. 
 Suppose that we use the [[Horizontal-Vertical Concatenation]] 
 Suppose that:$$\mathbf{u}= \begin{bmatrix}\mathbf{v}\\\mathbf{w}\end{bmatrix},\ \text{therefore}\ \ \mathbf{u}\mathbf{u}^\top =  \begin{bmatrix}\mathbf{v}\mathbf{v}^\top & \mathbf{v}\mathbf{w}^\top\\\mathbf{w}\mathbf{v}^\top & \mathbf{w}\mathbf{w}^\top\end{bmatrix}$$Assuming that the rows of $\mathbf{u}$ are ordered to the [[Qubit#Convention 3.1|lexicographic convention]], then we perform a measurement on the first bit, the outcome will be $\begin{bmatrix} \mathbf{v}\\ \mathbf{0}\end{bmatrix}$ with probability $||\mathbf{v}||^2$ and $\begin{bmatrix} \mathbf{0}\\ \mathbf{w}\end{bmatrix}$ with probability $||\mathbf{w}||^2$. 
-In density matrix notation the outcome will be ![[density-matrix-ops-1.png| center | 350]]where the first matrix occurs with probability $||\mathbf{v}^2||$ and the second with probability $||\mathbf{w}||^2$. 
+In density matrix notation the outcome will be ![[density-matrix-ops-1.png| center | 350]](remember that $v^* = v^\top$)
+where the first matrix occurs with probability $||\mathbf{v}^2||$ and the second with probability $||\mathbf{w}||^2$. 
 Notice that the probability that each matrix occurs is equal to its [[Trace]]: $||\mathbf{v}||^2 = tr(\mathbf{v}\mathbf{v}^\top)$ (idem for $\mathbf{w}$).
 Thus, the [[Measurement#Convention 3.3 (Normalization Convention)|normalization convention]] extends naturally to density matrices: the density matrix of a state shall be normalized in such a way that its trace corresponds to the overall probability that this state is reached. 
 With this convention each of the two possible outcomes of a measurement is a linear function of the incoming state. 
